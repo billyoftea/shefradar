@@ -1,7 +1,7 @@
 services:
-  SHEFerRadar:
-    image: wantcat/SHEFerRadar:latest
-    container_name: SHEFerRadar
+  FinRadar:
+    image: wantcat/FinRadar:latest
+    container_name: FinRadar
     restart: unless-stopped
 
     ports:
@@ -56,9 +56,9 @@ services:
       - RUN_MODE=${RUN_MODE:-cron}
       - IMMEDIATE_RUN=${IMMEDIATE_RUN:-true}
 
-  SHEFerRadar-mcp:
-    image: wantcat/SHEFerRadar-mcp:latest
-    container_name: SHEFerRadar-mcp
+  FinRadar-mcp:
+    image: wantcat/FinRadar-mcp:latest
+    container_name: FinRadar-mcp
     restart: unless-stopped
 
     ports:

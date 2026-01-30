@@ -8,8 +8,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # 复制 MCP 服务器代码
 COPY mcp_server/ ./mcp_server/
-# 复制 SHEFerRadar 模块（MCP 服务需要读取 SQLite 数据）
-COPY SHEFerRadar/ ./SHEFerRadar/
+# 复制 FinRadar 模块（MCP 服务需要读取 SQLite 数据）
+COPY FinRadar/ ./FinRadar/
 
 # 创建必要目录
 RUN mkdir -p /app/config /app/output

@@ -1,5 +1,5 @@
 """
-SHEFerRadar MCP Server - FastMCP 2.0 实现
+FinRadar MCP Server - FastMCP 2.0 实现
 
 使用 FastMCP 2.0 提供生产级 MCP 工具服务器。
 支持 stdio 和 HTTP 两种传输模式。
@@ -22,7 +22,7 @@ from .utils.errors import MCPError
 
 
 # 创建 FastMCP 2.0 应用
-mcp = FastMCP('SHEFerRadar-news')
+mcp = FastMCP('FinRadar-news')
 
 # 全局工具实例（在第一次请求时初始化）
 _tools_instances = {}
@@ -55,7 +55,7 @@ async def get_platforms_resource() -> str:
     )
     return json.dumps({
         "platforms": config.get("platforms", []),
-        "description": "SHEFerRadar 支持的热榜平台列表"
+        "description": "FinRadar 支持的热榜平台列表"
     }, ensure_ascii=False, indent=2)
 
 
@@ -70,7 +70,7 @@ async def get_rss_feeds_resource() -> str:
     status = await asyncio.to_thread(tools['data'].get_rss_feeds_status)
     return json.dumps({
         "feeds": status.get("today_feeds", {}),
-        "description": "SHEFerRadar 支持的 RSS 订阅源列表"
+        "description": "FinRadar 支持的 RSS 订阅源列表"
     }, ensure_ascii=False, indent=2)
 
 
@@ -105,7 +105,7 @@ async def get_keywords_resource() -> str:
     return json.dumps({
         "word_groups": config.get("word_groups", []),
         "total_groups": config.get("total_groups", 0),
-        "description": "SHEFerRadar 关注词配置"
+        "description": "FinRadar 关注词配置"
     }, ensure_ascii=False, indent=2)
 
 
@@ -788,7 +788,7 @@ async def check_version(
     proxy_url: Optional[str] = None
 ) -> str:
     """
-    检查版本更新（同时检查 SHEFerRadar 和 MCP Server）
+    检查版本更新（同时检查 FinRadar 和 MCP Server）
 
     比较本地版本与 GitHub 远程版本，判断是否需要更新。
 
@@ -944,7 +944,7 @@ def run_server(
     # 打印启动信息
     print()
     print("=" * 60)
-    print("  SHEFerRadar MCP Server - FastMCP 2.0")
+    print("  FinRadar MCP Server - FastMCP 2.0")
     print("=" * 60)
     print(f"  传输模式: {transport.upper()}")
 
@@ -1019,7 +1019,7 @@ if __name__ == '__main__':
     import argparse
 
     parser = argparse.ArgumentParser(
-        description='SHEFerRadar MCP Server - 新闻热点聚合 MCP 工具服务器',
+        description='FinRadar MCP Server - 新闻热点聚合 MCP 工具服务器',
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 详细配置教程请查看: README-Cherry-Studio.md

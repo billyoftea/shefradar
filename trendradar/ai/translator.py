@@ -11,7 +11,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
-from SHEFerRadar.ai.client import AIClient
+from FinRadar.ai.client import AIClient
 
 
 @dataclass

@@ -8,7 +8,7 @@ RSS HTML 报告渲染模块
 from datetime import datetime
 from typing import Dict, List, Optional, Callable
 
-from SHEFerRadar.report.helpers import html_escape
+from FinRadar.report.helpers import html_escape
 
 
 def render_rss_html_content(
@@ -392,8 +392,8 @@ def render_rss_html_content(
 
             <div class="footer">
                 <div class="footer-content">
-                    由 <span class="project-name">SHEFerRadar</span> 生成 ·
-                    <a href="https://github.com/sansan0/SHEFerRadar" target="_blank" class="footer-link">
+                    由 <span class="project-name">FinRadar</span> 生成 ·
+                    <a href="https://github.com/sansan0/FinRadar" target="_blank" class="footer-link">
                         GitHub 开源项目
                     </a>
                 </div>
@@ -442,7 +442,7 @@ def render_rss_html_content(
 
                     const link = document.createElement('a');
                     const now = new Date();
-                    const filename = `SHEFerRadar_RSS订阅_${now.getFullYear()}${String(now.getMonth() + 1).padStart(2, '0')}${String(now.getDate()).padStart(2, '0')}_${String(now.getHours()).padStart(2, '0')}${String(now.getMinutes()).padStart(2, '0')}.png`;
+                    const filename = `FinRadar_RSS订阅_${now.getFullYear()}${String(now.getMonth() + 1).padStart(2, '0')}${String(now.getDate()).padStart(2, '0')}_${String(now.getHours()).padStart(2, '0')}${String(now.getMinutes()).padStart(2, '0')}.png`;
 
                     link.download = filename;
                     link.href = canvas.toDataURL('image/png', 1.0);

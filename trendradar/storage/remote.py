@@ -28,9 +28,9 @@ except ImportError:
     BotoConfig = None
     ClientError = Exception
 
-from SHEFerRadar.storage.base import StorageBackend, NewsItem, NewsData, RSSItem, RSSData
-from SHEFerRadar.storage.sqlite_mixin import SQLiteStorageMixin
-from SHEFerRadar.utils.time import (
+from FinRadar.storage.base import StorageBackend, NewsItem, NewsData, RSSItem, RSSData
+from FinRadar.storage.sqlite_mixin import SQLiteStorageMixin
+from FinRadar.utils.time import (
     get_configured_time,
     format_date_folder,
     format_time_filename,
@@ -87,7 +87,7 @@ class RemoteStorageBackend(SQLiteStorageMixin, StorageBackend):
         self.timezone = timezone
 
         # 创建临时目录
-        self.temp_dir = Path(temp_dir) if temp_dir else Path(tempfile.mkdtemp(prefix="SHEFerRadar_"))
+        self.temp_dir = Path(temp_dir) if temp_dir else Path(tempfile.mkdtemp(prefix="FinRadar_"))
         self.temp_dir.mkdir(parents=True, exist_ok=True)
 
         # 初始化 S3 客户端

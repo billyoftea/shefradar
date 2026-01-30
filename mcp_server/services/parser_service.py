@@ -373,7 +373,7 @@ class ParserService:
         """
         解析关键词配置文件
 
-        复用 SHEFerRadar.core.frequency 的解析逻辑，支持：
+        复用 FinRadar.core.frequency 的解析逻辑，支持：
         - # 开头的注释行
         - 空行分隔词组
         - [组别名] 作为词组第一行，给整组指定别名
@@ -393,7 +393,7 @@ class ParserService:
         Raises:
             FileParseError: 文件解析错误
         """
-        from SHEFerRadar.core.frequency import load_frequency_words
+        from FinRadar.core.frequency import load_frequency_words
 
         if words_file is None:
             words_file = str(self.project_root / "config" / "frequency_words.txt")

@@ -3,7 +3,7 @@ chcp 65001 >nul
 setlocal enabledelayedexpansion
 
 echo ==========================================
-echo   SHEFerRadar MCP 一键部署 (Windows)
+echo   FinRadar MCP 一键部署 (Windows)
 echo ==========================================
 echo.
 

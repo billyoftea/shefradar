@@ -1,9 +1,9 @@
 services:
-  SHEFerRadar:
+  FinRadar:
     build:
       context: ..
       dockerfile: docker/Dockerfile
-    container_name: SHEFerRadar
+    container_name: FinRadar
     restart: unless-stopped
 
     ports:
@@ -58,11 +58,11 @@ services:
       - RUN_MODE=${RUN_MODE:-cron}
       - IMMEDIATE_RUN=${IMMEDIATE_RUN:-true}
 
-  SHEFerRadar-mcp:
+  FinRadar-mcp:
     build:
       context: ..
       dockerfile: docker/Dockerfile.mcp
-    container_name: SHEFerRadar-mcp
+    container_name: FinRadar-mcp
     restart: unless-stopped
 
     ports:

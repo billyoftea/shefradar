@@ -85,7 +85,7 @@ class StorageSyncTools:
             return None
 
         try:
-            from SHEFerRadar.storage.remote import RemoteStorageBackend
+            from FinRadar.storage.remote import RemoteStorageBackend
 
             remote_config = self._get_remote_config()
             config = self._load_config()
@@ -255,7 +255,7 @@ class StorageSyncTools:
             local_dates = set(self._get_local_dates())
 
             # 计算需要拉取的日期（最近 N 天）
-            from SHEFerRadar.utils.time import get_configured_time
+            from FinRadar.utils.time import get_configured_time
             config = self._load_config()
             timezone = config.get("app", {}).get("timezone", "Asia/Shanghai")
             now = get_configured_time(timezone)

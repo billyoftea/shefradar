@@ -2,7 +2,7 @@
 setlocal enabledelayedexpansion
 
 echo ==========================================
-echo   SHEFerRadar MCP Setup (Windows)
+echo   FinRadar MCP Setup (Windows)
 echo ==========================================
 echo:
 

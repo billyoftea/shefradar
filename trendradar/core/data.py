@@ -7,7 +7,7 @@
 - read_all_today_titles: 从存储后端读取当天所有标题
 - detect_latest_new_titles: 检测最新批次的新增标题
 
-Author: SHEFerRadar Team
+Author: FinRadar Team
 """
 
 from pathlib import Path

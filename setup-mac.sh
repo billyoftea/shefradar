@@ -9,7 +9,7 @@ BOLD='\033[1m'
 NC='\033[0m' # No Color
 
 echo -e "${BOLD}╔════════════════════════════════════════╗${NC}"
-echo -e "${BOLD}║  SHEFerRadar MCP 一键部署 (Mac)        ║${NC}"
+echo -e "${BOLD}║  FinRadar MCP 一键部署 (Mac)        ║${NC}"
 echo -e "${BOLD}╚════════════════════════════════════════╝${NC}"
 echo ""
 
@@ -100,7 +100,7 @@ echo "  1️⃣  打开 Cherry Studio"
 echo "  2️⃣  进入 设置 > MCP Servers > 添加服务器"
 echo "  3️⃣  填入以下配置:"
 echo ""
-echo "      名称: SHEFerRadar"
+echo "      名称: FinRadar"
 echo "      描述: 新闻热点聚合工具"
 echo "      类型: STDIO"
 echo -e "      命令: ${BLUE}${UV_PATH}${NC}"

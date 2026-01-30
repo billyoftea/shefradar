@@ -8,7 +8,7 @@
 - auto: 根据环境自动选择（GitHub Actions 用 remote，其他用 local）
 """
 
-from SHEFerRadar.storage.base import (
+from FinRadar.storage.base import (
     StorageBackend,
     NewsItem,
     NewsData,
@@ -17,13 +17,13 @@ from SHEFerRadar.storage.base import (
     convert_crawl_results_to_news_data,
     convert_news_data_to_results,
 )
-from SHEFerRadar.storage.sqlite_mixin import SQLiteStorageMixin
-from SHEFerRadar.storage.local import LocalStorageBackend
-from SHEFerRadar.storage.manager import StorageManager, get_storage_manager
+from FinRadar.storage.sqlite_mixin import SQLiteStorageMixin
+from FinRadar.storage.local import LocalStorageBackend
+from FinRadar.storage.manager import StorageManager, get_storage_manager
 
 # 远程后端可选导入（需要 boto3）
 try:
-    from SHEFerRadar.storage.remote import RemoteStorageBackend
+    from FinRadar.storage.remote import RemoteStorageBackend
     HAS_REMOTE = True
 except ImportError:
     RemoteStorageBackend = None

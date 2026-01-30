@@ -1,9 +1,9 @@
 # coding=utf-8
 """
-SHEFerRadar 主程序
+FinRadar 主程序
 
 热点新闻聚合与分析工具
-支持: python -m SHEFerRadar
+支持: python -m FinRadar
 """
 
 import os
@@ -14,14 +14,14 @@ from typing import Dict, List, Tuple, Optional
 
 import requests
 
-from SHEFerRadar.context import AppContext
-from SHEFerRadar import __version__
-from SHEFerRadar.core import load_config
-from SHEFerRadar.core.analyzer import convert_keyword_stats_to_platform_stats
-from SHEFerRadar.crawler import DataFetcher
-from SHEFerRadar.storage import convert_crawl_results_to_news_data
-from SHEFerRadar.utils.time import is_within_days
-from SHEFerRadar.ai import AIAnalyzer, AIAnalysisResult
+from FinRadar.context import AppContext
+from FinRadar import __version__
+from FinRadar.core import load_config
+from FinRadar.core.analyzer import convert_keyword_stats_to_platform_stats
+from FinRadar.crawler import DataFetcher
+from FinRadar.storage import convert_crawl_results_to_news_data
+from FinRadar.utils.time import is_within_days
+from FinRadar.ai import AIAnalyzer, AIAnalysisResult
 
 
 def _parse_version(version_str: str) -> Tuple[int, int, int]:
@@ -211,7 +211,7 @@ class NewsAnalyzer:
         if config is None:
             print("正在加载配置...")
             config = load_config()
-        print(f"SHEFerRadar v{__version__} 配置加载完成")
+        print(f"FinRadar v{__version__} 配置加载完成")
         print(f"监控平台数量: {len(config['PLATFORMS'])}")
         print(f"时区: {config.get('TIMEZONE', 'Asia/Shanghai')}")
 
@@ -385,7 +385,7 @@ class NewsAnalyzer:
 
                 # 如果是 platform 模式，转换数据结构
                 if self.ctx.display_mode == "platform" and stats:
-                    from SHEFerRadar.core.stats import convert_keyword_stats_to_platform_stats
+                    from FinRadar.core.stats import convert_keyword_stats_to_platform_stats
                     stats = convert_keyword_stats_to_platform_stats(
                         stats,
                         self.ctx.weight_config,
@@ -426,7 +426,7 @@ class NewsAnalyzer:
 
                 # 如果是 platform 模式，转换数据结构
                 if self.ctx.display_mode == "platform" and stats:
-                    from SHEFerRadar.core.stats import convert_keyword_stats_to_platform_stats
+                    from FinRadar.core.stats import convert_keyword_stats_to_platform_stats
                     stats = convert_keyword_stats_to_platform_stats(
                         stats,
                         self.ctx.weight_config,
@@ -1064,7 +1064,7 @@ class NewsAnalyzer:
             return None, None, None
 
         try:
-            from SHEFerRadar.crawler.rss import RSSFetcher, RSSFeedConfig
+            from FinRadar.crawler.rss import RSSFetcher, RSSFeedConfig
 
             # 构建 RSS 源配置
             feeds = []
@@ -1160,7 +1160,7 @@ class NewsAnalyzer:
             - rss_new_stats: RSS 新增关键词统计列表（与热榜 stats 格式一致）
             - raw_rss_items: 原始 RSS 条目列表（用于独立展示区）
         """
-        from SHEFerRadar.core.analyzer import count_rss_frequency
+        from FinRadar.core.analyzer import count_rss_frequency
 
         # 从 display.regions.rss 统一控制 RSS 分析和展示
         rss_display_enabled = self.ctx.config.get("DISPLAY", {}).get("REGIONS", {}).get("RSS", True)
@@ -1367,7 +1367,7 @@ class NewsAnalyzer:
         try:
             word_groups, filter_words, global_filters = self.ctx.load_frequency_words()
             if word_groups or filter_words or global_filters:
-                from SHEFerRadar.core.frequency import matches_word_groups
+                from FinRadar.core.frequency import matches_word_groups
                 filtered_items = []
                 for item in rss_items:
                     title = item.get("title", "")
@@ -1389,7 +1389,7 @@ class NewsAnalyzer:
     def _generate_rss_html_report(self, rss_items: list, feeds_info: dict) -> str:
         """生成 RSS HTML 报告"""
         try:
-            from SHEFerRadar.report.rss_html import render_rss_html_content
+            from FinRadar.report.rss_html import render_rss_html_content
             from pathlib import Path
 
             html_content = render_rss_html_content(

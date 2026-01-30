@@ -13,9 +13,9 @@ from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Dict, List, Optional
 
-from SHEFerRadar.storage.base import StorageBackend, NewsItem, NewsData, RSSItem, RSSData
-from SHEFerRadar.storage.sqlite_mixin import SQLiteStorageMixin
-from SHEFerRadar.utils.time import (
+from FinRadar.storage.base import StorageBackend, NewsItem, NewsData, RSSItem, RSSData
+from FinRadar.storage.sqlite_mixin import SQLiteStorageMixin
+from FinRadar.utils.time import (
     get_configured_time,
     format_date_folder,
     format_time_filename,

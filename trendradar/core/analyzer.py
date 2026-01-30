@@ -10,7 +10,7 @@
 
 from typing import Dict, List, Tuple, Optional, Callable
 
-from SHEFerRadar.core.frequency import matches_word_groups, _word_matches
+from FinRadar.core.frequency import matches_word_groups, _word_matches
 
 
 def calculate_news_weight(
@@ -544,7 +544,7 @@ def count_rss_frequency(
             }
         ]
     """
-    from SHEFerRadar.utils.time import format_iso_time_friendly
+    from FinRadar.utils.time import format_iso_time_friendly
 
     if not rss_items:
         return [], 0

@@ -383,7 +383,7 @@ class DataService:
             for title in titles.keys():
                 if extract_mode == "keywords":
                     # 基于预设关键词统计（支持正则匹配）
-                    from SHEFerRadar.core.frequency import _word_matches
+                    from FinRadar.core.frequency import _word_matches
 
                     word_groups = self.parser.parse_frequency_words()
                     title_lower = title.lower()

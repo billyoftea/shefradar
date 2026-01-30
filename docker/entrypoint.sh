@@ -13,11 +13,11 @@ env >> /etc/environment
 case "${RUN_MODE:-cron}" in
 "once")
     echo "🔄 单次执行"
-    exec /usr/local/bin/python -m SHEFerRadar
+    exec /usr/local/bin/python -m FinRadar
     ;;
 "cron")
     # 生成 crontab
-    echo "${CRON_SCHEDULE:-*/30 * * * *} cd /app && /usr/local/bin/python -m SHEFerRadar" > /tmp/crontab
+    echo "${CRON_SCHEDULE:-*/30 * * * *} cd /app && /usr/local/bin/python -m FinRadar" > /tmp/crontab
     
     echo "📅 生成的crontab内容:"
     cat /tmp/crontab
@@ -30,7 +30,7 @@ case "${RUN_MODE:-cron}" in
     # 立即执行一次（如果配置了）
     if [ "${IMMEDIATE_RUN:-false}" = "true" ]; then
         echo "▶️ 立即执行一次"
-        /usr/local/bin/python -m SHEFerRadar
+        /usr/local/bin/python -m FinRadar
     fi
 
     # 启动 Web 服务器（如果配置了）

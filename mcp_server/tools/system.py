@@ -92,10 +92,10 @@ class SystemManagementTools:
         try:
             import time
             import yaml
-            from SHEFerRadar.crawler.fetcher import DataFetcher
-            from SHEFerRadar.storage.local import LocalStorageBackend
-            from SHEFerRadar.storage.base import convert_crawl_results_to_news_data
-            from SHEFerRadar.utils.time import get_configured_time, format_date_folder, format_time_filename
+            from FinRadar.crawler.fetcher import DataFetcher
+            from FinRadar.storage.local import LocalStorageBackend
+            from FinRadar.storage.base import convert_crawl_results_to_news_data
+            from FinRadar.utils.time import get_configured_time, format_date_folder, format_time_filename
             from ..services.cache_service import get_cache
 
             # 参数验证
@@ -164,7 +164,7 @@ class SystemManagementTools:
                 request_interval=request_interval
             )
 
-            # 获取当前时间（统一使用 SHEFerRadar 的时间工具）
+            # 获取当前时间（统一使用 FinRadar 的时间工具）
             # 从配置中读取时区，默认为 Asia/Shanghai
             timezone = config_data.get("app", {}).get("timezone", "Asia/Shanghai")
             current_time = get_configured_time(timezone)
@@ -384,9 +384,9 @@ class SystemManagementTools:
         """
         检查版本更新
 
-        同时检查 SHEFerRadar 和 MCP Server 两个组件的版本更新。
+        同时检查 FinRadar 和 MCP Server 两个组件的版本更新。
         远程版本 URL 从 config.yaml 获取：
-        - version_check_url: SHEFerRadar 版本
+        - version_check_url: FinRadar 版本
         - mcp_version_check_url: MCP Server 版本
 
         Args:
@@ -395,7 +395,7 @@ class SystemManagementTools:
         Returns:
             版本检查结果字典，包含：
             - success: 是否成功
-            - SHEFerRadar: SHEFerRadar 版本检查结果
+            - FinRadar: FinRadar 版本检查结果
             - mcp: MCP Server 版本检查结果
             - any_update: 是否有任何组件需要更新
 
@@ -477,7 +477,7 @@ class SystemManagementTools:
 
         try:
             # 导入本地版本
-            from SHEFerRadar import __version__ as SHEFerRadar_version
+            from FinRadar import __version__ as FinRadar_version
             from mcp_server import __version__ as mcp_version
 
             # 从配置文件获取远程版本 URL
@@ -495,13 +495,13 @@ class SystemManagementTools:
                 config_data = yaml.safe_load(f)
 
             advanced_config = config_data.get("advanced", {})
-            SHEFerRadar_url = advanced_config.get(
+            FinRadar_url = advanced_config.get(
                 "version_check_url",
-                "https://raw.githubusercontent.com/sansan0/SHEFerRadar/refs/heads/master/version"
+                "https://raw.githubusercontent.com/sansan0/FinRadar/refs/heads/master/version"
             )
             mcp_url = advanced_config.get(
                 "mcp_version_check_url",
-                "https://raw.githubusercontent.com/sansan0/SHEFerRadar/refs/heads/master/version_mcp"
+                "https://raw.githubusercontent.com/sansan0/FinRadar/refs/heads/master/version_mcp"
             )
 
             # 配置代理
@@ -517,8 +517,8 @@ class SystemManagementTools:
             }
 
             # 检查两个版本
-            SHEFerRadar_result = check_single_version(
-                "SHEFerRadar", SHEFerRadar_version, SHEFerRadar_url, proxies, headers
+            FinRadar_result = check_single_version(
+                "FinRadar", FinRadar_version, FinRadar_url, proxies, headers
             )
             mcp_result = check_single_version(
                 "MCP Server", mcp_version, mcp_url, proxies, headers
@@ -526,18 +526,18 @@ class SystemManagementTools:
 
             # 判断是否有任何更新
             any_update = (
-                (SHEFerRadar_result.get("success") and SHEFerRadar_result.get("need_update", False)) or
+                (FinRadar_result.get("success") and FinRadar_result.get("need_update", False)) or
                 (mcp_result.get("success") and mcp_result.get("need_update", False))
             )
 
             return {
                 "success": True,
                 "summary": {
-                    "description": "版本检查结果（SHEFerRadar + MCP Server）",
+                    "description": "版本检查结果（FinRadar + MCP Server）",
                     "any_update": any_update
                 },
                 "data": {
-                    "SHEFerRadar": SHEFerRadar_result,
+                    "FinRadar": FinRadar_result,
                     "mcp": mcp_result,
                     "any_update": any_update
                 }

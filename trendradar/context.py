@@ -9,14 +9,14 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
-from SHEFerRadar.utils.time import (
+from FinRadar.utils.time import (
     get_configured_time,
     format_date_folder,
     format_time_filename,
     get_current_time_display,
     convert_time_for_display,
 )
-from SHEFerRadar.core import (
+from FinRadar.core import (
     load_frequency_words,
     matches_word_groups,
     save_titles_to_file,
@@ -24,21 +24,21 @@ from SHEFerRadar.core import (
     detect_latest_new_titles,
     count_word_frequency,
 )
-from SHEFerRadar.report import (
+from FinRadar.report import (
     clean_title,
     prepare_report_data,
     generate_html_report,
     render_html_content,
 )
-from SHEFerRadar.notification import (
+from FinRadar.notification import (
     render_feishu_content,
     render_dingtalk_content,
     split_content_into_batches,
     NotificationDispatcher,
     PushRecordManager,
 )
-from SHEFerRadar.ai import AITranslator
-from SHEFerRadar.storage import get_storage_manager
+from FinRadar.ai import AITranslator
+from FinRadar.storage import get_storage_manager
 
 
 class AppContext:

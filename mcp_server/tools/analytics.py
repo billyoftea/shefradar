@@ -13,7 +13,7 @@ from difflib import SequenceMatcher
 
 import yaml
 
-from SHEFerRadar.core.analyzer import calculate_news_weight as _calculate_news_weight
+from FinRadar.core.analyzer import calculate_news_weight as _calculate_news_weight
 
 from ..services.data_service import DataService
 from ..utils.validators import (
@@ -62,7 +62,7 @@ def calculate_news_weight(news_data: Dict, rank_threshold: int = 5) -> float:
     """
     计算新闻权重（用于排序）
 
-    复用 SHEFerRadar.core.analyzer.calculate_news_weight 实现，
+    复用 FinRadar.core.analyzer.calculate_news_weight 实现，
     权重配置从 config.yaml 的 advanced.weight 读取。
 
     Args:
@@ -1307,7 +1307,7 @@ class AnalyticsTools:
                 for news in sample_news:
                     markdown += f"- [{news['platform']}] {news['title']}\n"
 
-            markdown += "\n---\n\n*本报告由 SHEFerRadar MCP 自动生成*\n"
+            markdown += "\n---\n\n*本报告由 FinRadar MCP 自动生成*\n"
 
             return {
                 "success": True,

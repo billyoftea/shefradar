@@ -17,26 +17,26 @@
 - dispatcher: 多账号通知调度器
 """
 
-from SHEFerRadar.notification.push_manager import PushRecordManager
-from SHEFerRadar.notification.formatters import (
+from FinRadar.notification.push_manager import PushRecordManager
+from FinRadar.notification.formatters import (
     strip_markdown,
     convert_markdown_to_mrkdwn,
 )
-from SHEFerRadar.notification.batch import (
+from FinRadar.notification.batch import (
     get_batch_header,
     get_max_batch_header_size,
     truncate_to_bytes,
     add_batch_headers,
 )
-from SHEFerRadar.notification.renderer import (
+from FinRadar.notification.renderer import (
     render_feishu_content,
     render_dingtalk_content,
 )
-from SHEFerRadar.notification.splitter import (
+from FinRadar.notification.splitter import (
     split_content_into_batches,
     DEFAULT_BATCH_SIZES,
 )
-from SHEFerRadar.notification.senders import (
+from FinRadar.notification.senders import (
     send_to_feishu,
     send_to_dingtalk,
     send_to_wework,
@@ -47,7 +47,7 @@ from SHEFerRadar.notification.senders import (
     send_to_slack,
     SMTP_CONFIGS,
 )
-from SHEFerRadar.notification.dispatcher import NotificationDispatcher
+from FinRadar.notification.dispatcher import NotificationDispatcher
 
 __all__ = [
     # 推送记录管理

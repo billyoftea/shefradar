@@ -14,7 +14,7 @@ from __future__ import annotations
 
 from typing import TYPE_CHECKING, Any, Callable, Dict, List, Optional
 
-from SHEFerRadar.core.config import (
+from FinRadar.core.config import (
     get_account_at_index,
     limit_accounts,
     parse_multi_account_config,
@@ -40,7 +40,7 @@ from .renderer import (
 
 # 类型检查时导入，运行时不导入（避免循环导入）
 if TYPE_CHECKING:
-    from SHEFerRadar.ai import AIAnalysisResult, AITranslator
+    from FinRadar.ai import AIAnalysisResult, AITranslator
 
 
 class NotificationDispatcher:

@@ -4,7 +4,7 @@
 
 </div>
 
-# SHEFerRadar MCP 工具使用问答
+# FinRadar MCP 工具使用问答
 
 > AI 提问指南 - 如何通过自然对话使用新闻热点分析工具（v3.1.6）
 
@@ -31,7 +31,7 @@
 | | `generate_summary_report` | 生成每日/每周摘要报告 |
 | **系统** | `get_current_config` | 获取当前系统配置 |
 | | `get_system_status` | 获取系统运行状态 |
-| | `check_version` | 检查版本更新（SHEFerRadar + MCP Server） |
+| | `check_version` | 检查版本更新（FinRadar + MCP Server） |
 | | `trigger_crawl` | 手动触发一次爬取任务 |
 | **存储** | `sync_from_remote` | 从远程存储拉取数据到本地 |
 | | `get_storage_status` | 获取存储配置和状态 |
@@ -564,7 +564,7 @@
 
 | 组件 | 说明 |
 |------|------|
-| **SHEFerRadar** | 核心爬虫和分析引擎 |
+| **FinRadar** | 核心爬虫和分析引擎 |
 | **MCP Server** | AI 对话工具服务 |
 
 每个组件会告诉你：

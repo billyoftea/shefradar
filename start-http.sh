@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "╔════════════════════════════════════════╗"
-echo "║  SHEFerRadar MCP Server (HTTP 模式)    ║"
+echo "║  FinRadar MCP Server (HTTP 模式)    ║"
 echo "╚════════════════════════════════════════╝"
 echo ""
 

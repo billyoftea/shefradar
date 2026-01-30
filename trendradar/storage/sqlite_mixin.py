@@ -11,8 +11,8 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
-from SHEFerRadar.storage.base import NewsItem, NewsData, RSSItem, RSSData
-from SHEFerRadar.utils.url import normalize_url
+from FinRadar.storage.base import NewsItem, NewsData, RSSItem, RSSData
+from FinRadar.utils.url import normalize_url
 
 
 class SQLiteStorageMixin:

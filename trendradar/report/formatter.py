@@ -7,7 +7,7 @@
 
 from typing import Dict
 
-from SHEFerRadar.report.helpers import clean_title, html_escape, format_rank_display
+from FinRadar.report.helpers import clean_title, html_escape, format_rank_display
 
 
 def format_title_for_platform(

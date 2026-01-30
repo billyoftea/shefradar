@@ -8,7 +8,7 @@
 import os
 from typing import Optional
 
-from SHEFerRadar.storage.base import StorageBackend, NewsData, RSSData
+from FinRadar.storage.base import StorageBackend, NewsData, RSSData
 
 
 # 存储管理器单例
@@ -126,7 +126,7 @@ class StorageManager:
     def _create_remote_backend(self) -> Optional[StorageBackend]:
         """创建远程存储后端"""
         try:
-            from SHEFerRadar.storage.remote import RemoteStorageBackend
+            from FinRadar.storage.remote import RemoteStorageBackend
 
             return RemoteStorageBackend(
                 bucket_name=self.remote_config.get("bucket_name") or os.environ.get("S3_BUCKET_NAME", ""),
@@ -160,7 +160,7 @@ class StorageManager:
                     resolved_type = "local"
 
             if resolved_type == "local" or self._backend is None:
-                from SHEFerRadar.storage.local import LocalStorageBackend
+                from FinRadar.storage.local import LocalStorageBackend
 
                 self._backend = LocalStorageBackend(
                     data_dir=self.data_dir,

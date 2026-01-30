@@ -14,8 +14,8 @@ from typing import List, Dict, Optional, Tuple, Callable
 import requests
 
 from .parser import RSSParser, ParsedRSSItem
-from SHEFerRadar.storage.base import RSSItem, RSSData
-from SHEFerRadar.utils.time import get_configured_time, is_within_days, DEFAULT_TIMEZONE
+from FinRadar.storage.base import RSSItem, RSSData
+from FinRadar.utils.time import get_configured_time, is_within_days, DEFAULT_TIMEZONE
 
 
 @dataclass
@@ -72,7 +72,7 @@ class RSSFetcher:
         """创建请求会话"""
         session = requests.Session()
         session.headers.update({
-            "User-Agent": "SHEFerRadar/2.0 RSS Reader (https://github.com/SHEFerRadar)",
+            "User-Agent": "FinRadar/2.0 RSS Reader (https://github.com/FinRadar)",
             "Accept": "application/feed+json, application/json, application/rss+xml, application/atom+xml, application/xml, text/xml, */*",
             "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
         })

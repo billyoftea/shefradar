@@ -1,22 +1,22 @@
-<div align="center" id="SHEFerRadar">
+<div align="center" id="FinRadar">
 
-<a href="https://github.com/sansan0/SHEFerRadar" title="SHEFerRadar">
-  <img src="/_image/banner.webp" alt="SHEFerRadar Banner" width="80%">
+<a href="https://github.com/sansan0/FinRadar" title="FinRadar">
+  <img src="/_image/banner.webp" alt="FinRadar Banner" width="80%">
 </a>
 
 最快<strong>30秒</strong>部署的热点助手 —— 告别无效刷屏，只看真正关心的新闻资讯
 
-<a href="https://trendshift.io/repositories/14726" target="_blank"><img src="https://trendshift.io/api/badge/repositories/14726" alt="sansan0%2FSHEFerRadar | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+<a href="https://trendshift.io/repositories/14726" target="_blank"><img src="https://trendshift.io/api/badge/repositories/14726" alt="sansan0%2FFinRadar | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
 <a href="https://shandianshuo.cn" target="_blank" title="AI 语音输入，比打字快 4 倍 ⚡"><img src="_image/shandianshuo.png" alt="闪电说 logo" height="50"/></a>
 
-[![GitHub Stars](https://img.shields.io/github/stars/sansan0/SHEFerRadar?style=flat-square&logo=github&color=yellow)](https://github.com/sansan0/SHEFerRadar/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/sansan0/SHEFerRadar?style=flat-square&logo=github&color=blue)](https://github.com/sansan0/SHEFerRadar/network/members)
+[![GitHub Stars](https://img.shields.io/github/stars/sansan0/FinRadar?style=flat-square&logo=github&color=yellow)](https://github.com/sansan0/FinRadar/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/sansan0/FinRadar?style=flat-square&logo=github&color=blue)](https://github.com/sansan0/FinRadar/network/members)
 [![License](https://img.shields.io/badge/license-GPL--3.0-blue.svg?style=flat-square)](LICENSE)
-[![Version](https://img.shields.io/badge/version-v5.4.0-blue.svg)](https://github.com/sansan0/SHEFerRadar)
-[![MCP](https://img.shields.io/badge/MCP-v3.1.7-green.svg)](https://github.com/sansan0/SHEFerRadar)
-[![RSS](https://img.shields.io/badge/RSS-订阅源支持-orange.svg?style=flat-square&logo=rss&logoColor=white)](https://github.com/sansan0/SHEFerRadar)
-[![AI翻译](https://img.shields.io/badge/AI-多语言推送-purple.svg?style=flat-square)](https://github.com/sansan0/SHEFerRadar)
+[![Version](https://img.shields.io/badge/version-v5.4.0-blue.svg)](https://github.com/sansan0/FinRadar)
+[![MCP](https://img.shields.io/badge/MCP-v3.1.7-green.svg)](https://github.com/sansan0/FinRadar)
+[![RSS](https://img.shields.io/badge/RSS-订阅源支持-orange.svg?style=flat-square&logo=rss&logoColor=white)](https://github.com/sansan0/FinRadar)
+[![AI翻译](https://img.shields.io/badge/AI-多语言推送-purple.svg?style=flat-square)](https://github.com/sansan0/FinRadar)
 
 [![企业微信通知](https://img.shields.io/badge/企业微信-通知-00D4AA?style=flat-square)](https://work.weixin.qq.com/)
 [![个人微信通知](https://img.shields.io/badge/个人微信-通知-00D4AA?style=flat-square)](https://weixin.qq.com/)
@@ -30,9 +30,9 @@
 [![通用Webhook](https://img.shields.io/badge/通用-Webhook-607D8B?style=flat-square&logo=webhook&logoColor=white)](#)
 
 
-[![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-自动化-2088FF?style=flat-square&logo=github-actions&logoColor=white)](https://github.com/sansan0/SHEFerRadar)
-[![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-部署-4285F4?style=flat-square&logo=github&logoColor=white)](https://sansan0.github.io/SHEFerRadar)
-[![Docker](https://img.shields.io/badge/Docker-部署-2496ED?style=flat-square&logo=docker&logoColor=white)](https://hub.docker.com/r/wantcat/SHEFerRadar)
+[![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-自动化-2088FF?style=flat-square&logo=github-actions&logoColor=white)](https://github.com/sansan0/FinRadar)
+[![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-部署-4285F4?style=flat-square&logo=github&logoColor=white)](https://sansan0.github.io/FinRadar)
+[![Docker](https://img.shields.io/badge/Docker-部署-2496ED?style=flat-square&logo=docker&logoColor=white)](https://hub.docker.com/r/wantcat/FinRadar)
 [![MCP Support](https://img.shields.io/badge/MCP-AI分析支持-FF6B6B?style=flat-square&logo=ai&logoColor=white)](https://modelcontextprotocol.io/)
 [![AI分析推送](https://img.shields.io/badge/AI-分析推送-FF6B6B?style=flat-square&logo=openai&logoColor=white)](#)
 
@@ -76,7 +76,7 @@
 > 1. **关于名单**：下方表格记录了项目起步阶段（天使轮）的支持者。因早期人工统计繁琐，**难免存在疏漏或记录不全的情况，如有遗漏，实非本意，万望海涵**。
 > 2. **未来规划**：为了将有限的精力回归代码与功能迭代，**即日起不再人工维护此名单**。
 >
-> 无论名字是否上榜，你们的每一份支持都是 SHEFerRadar 能够走到今天的基石。🙏
+> 无论名字是否上榜，你们的每一份支持都是 FinRadar 能够走到今天的基石。🙏
 
 ### 基础设施支持
 
@@ -121,10 +121,10 @@
 |           *云          |  88  | 2025.11.13  |    好项目，感谢开源  | 
 |           *W          |  6  | 2025.11.13  |      | 
 |           *凯          |  1  | 2025.11.13  |      | 
-|           对*.          |  1  | 2025.11.13  |    Thanks for your SHEFerRadar  | 
+|           对*.          |  1  | 2025.11.13  |    Thanks for your FinRadar  | 
 |           s*y          |  1  | 2025.11.13  |      | 
 |           **翔          |  10  | 2025.11.13  |   好项目，相见恨晚，感谢开源！     | 
-|           *韦          |  9.9  | 2025.11.13  |   SHEFerRadar超赞，请老师喝咖啡~     | 
+|           *韦          |  9.9  | 2025.11.13  |   FinRadar超赞，请老师喝咖啡~     | 
 |           h*p          |  5  | 2025.11.12  |   支持中国开源力量，加油！     | 
 |           c*r          |  6  | 2025.11.12  |        | 
 |           a*n          |  5  | 2025.11.12  |        | 
@@ -147,7 +147,7 @@
 |           *😀           |  10  | 2025.10.16  |     点赞     |
 |           **杰           |  10  | 2025.10.16  |          |
 |           *啸           |  10  | 2025.10.16  |          |
-|           *纪           |  5  | 2025.10.14  | SHEFerRadar         |
+|           *纪           |  5  | 2025.10.14  | FinRadar         |
 |           J*d           |  1  | 2025.10.14  | 谢谢你的工具，很好玩...          |
 |           *H           |  1  | 2025.10.14  |           |
 |           那*O           |  10  | 2025.10.13  |           |
@@ -171,7 +171,7 @@
 |           2*D            |  1  | 2025.8.13 上午 |           |
 |           S*o            |  1  | 2025.8.05 |   支持一下        |
 |           *侠            |  10  | 2025.8.04 |           |
-|           x*x            |  2  | 2025.8.03 |  SHEFerRadar 好项目 点赞          |
+|           x*x            |  2  | 2025.8.03 |  FinRadar 好项目 点赞          |
 |           *远            |  1  | 2025.8.01 |            |
 |           *邪            |  5  | 2025.8.01 |            |
 |           *梦            |  0.1  | 2025.7.30 |            |
@@ -217,7 +217,7 @@
 
 ## 📝 更新日志
 
-> **📌 查看最新更新**：**[原仓库更新日志](https://github.com/sansan0/SHEFerRadar?tab=readme-ov-file#-更新日志)** ：
+> **📌 查看最新更新**：**[原仓库更新日志](https://github.com/sansan0/FinRadar?tab=readme-ov-file#-更新日志)** ：
 - **提示**：建议查看【历史更新】，明确具体的【功能内容】
 
 
@@ -237,7 +237,7 @@
 - **RSS 增强**：`get_latest_rss` 支持多日查询（days 参数），跨日期 URL 去重
 - **正则匹配修复**：`get_trending_topics` 支持 `/pattern/` 正则语法和 `display_name`
 - **缓存优化**：新增 `make_cache_key()` 函数，参数排序+MD5 哈希确保一致性
-- **新增 check_version 工具**：支持同时检查 SHEFerRadar 和 MCP Server 版本更新
+- **新增 check_version 工具**：支持同时检查 FinRadar 和 MCP Server 版本更新
 
 
 <details>
@@ -333,7 +333,7 @@
 
 **🔧 配置优化**
 
-- **频率词配置增强**：新增 `[组别名]` 语法，支持 `#` 注释行，配置更清晰（感谢 [@songge8](https://github.com/sansan0/SHEFerRadar/issues/752) 提出的建议）
+- **频率词配置增强**：新增 `[组别名]` 语法，支持 `#` 注释行，配置更清晰（感谢 [@songge8](https://github.com/sansan0/FinRadar/issues/752) 提出的建议）
 - **环境变量支持**：AI 分析相关配置支持环境变量覆盖（`AI_API_KEY`、`AI_PROVIDER` 等）
 
 > 💡 详细配置教程见 [让 AI 帮我分析热点](#12-让-ai-帮我分析热点)
@@ -404,7 +404,7 @@
 
 - **多存储后端支持**：引入全新的存储模块，支持本地 SQLite 和远程云存储（S3 兼容协议，例如 Cloudflare R2），适应 GitHub Actions、Docker 和本地环境。
 - **数据库结构优化**：重构 SQLite 数据库表结构，提升数据效率和查询能力。
-- **核心代码模块化**：将主程序逻辑拆分为 SHEFerRadar 包的多个模块，显著提升代码可维护性。
+- **核心代码模块化**：将主程序逻辑拆分为 FinRadar 包的多个模块，显著提升代码可维护性。
 - **增强功能**：实现日期格式标准化、数据保留策略、时区配置支持、时间显示优化，并修复远程存储数据持久化问题，确保数据合并的准确性。
 - **清理和兼容**：移除了大部分历史兼容代码，统一了数据存储和读取方式。
 
@@ -436,7 +436,7 @@
 
 **🐳 Docker MCP 镜像支持**
 
-- 新增独立的 MCP 服务镜像 `wantcat/SHEFerRadar-mcp`
+- 新增独立的 MCP 服务镜像 `wantcat/FinRadar-mcp`
 - 支持 Docker 部署 AI 分析功能，通过 HTTP 接口（端口 3333）提供服务
 - 双容器架构：新闻推送服务与 MCP 服务独立运行，可分别扩展和重启
 - 详见 [Docker 部署 - MCP 服务](#6-docker-部署)
@@ -444,7 +444,7 @@
 **🌐 Web 服务器支持**
 
 - 新增内置 Web 服务器，支持通过浏览器访问生成的报告
-- 通过 `manage.py` 命令控制启动/停止：`docker exec -it SHEFerRadar python manage.py start_webserver`
+- 通过 `manage.py` 命令控制启动/停止：`docker exec -it FinRadar python manage.py start_webserver`
 - 访问地址：`http://localhost:8080`（端口可配置）
 - 安全特性：静态文件服务、目录限制、本地访问
 - 支持自动启动和手动控制两种模式
@@ -534,7 +534,7 @@
 > 📖 **详细配置教程**：[快速开始 - Bark 推送](#-快速开始)
 
 **🐛 Bug 修复**
-- 修复 `config.yaml` 中 `ntfy_server_url` 配置不生效的问题 ([#345](https://github.com/sansan0/SHEFerRadar/issues/345))
+- 修复 `config.yaml` 中 `ntfy_server_url` 配置不生效的问题 ([#345](https://github.com/sansan0/FinRadar/issues/345))
 
 **🔧 升级说明**：
 - **GitHub Fork 用户**：更新 `main.py`、`config/config.yaml`、`.github/workflows/crawler.yml`
@@ -649,7 +649,7 @@
 
 ### 2025/10/10 - v2.4.3
 
-> 感谢 [nidaye996](https://github.com/sansan0/SHEFerRadar/issues/98) 发现的体验问题
+> 感谢 [nidaye996](https://github.com/sansan0/FinRadar/issues/98) 发现的体验问题
 
 - **更新内容**：
     - 重构"静默推送模式"命名为"推送时间窗口控制"，提升功能理解度
@@ -691,7 +691,7 @@
 
 ### 2025/09/26 - v2.3.2
 
-- 修正了邮件通知配置检查被遗漏的问题（[#88](https://github.com/sansan0/SHEFerRadar/issues/88)）
+- 修正了邮件通知配置检查被遗漏的问题（[#88](https://github.com/sansan0/FinRadar/issues/88)）
 
 **修复说明**：
 - 解决了即使正确配置邮件通知，系统仍提示"未配置任何webhook"的问题
@@ -729,7 +729,7 @@
 ### 2025/09/04 - v2.1.1
 
 - 修复docker在某些架构中无法正常运行的问题
-- 正式发布官方 Docker 镜像 wantcat/SHEFerRadar，支持多架构
+- 正式发布官方 Docker 镜像 wantcat/FinRadar，支持多架构
 - 优化 Docker 部署流程，无需本地构建即可快速使用
 
 ### 2025/08/30 - v2.1.0
@@ -794,7 +794,7 @@
 ### 2025/06/21 - v1.2.1
 
 在本版本之前的旧版本，不仅 main.py 需要复制替换， crawler.yml 也需要你复制替换
-https://github.com/sansan0/SHEFerRadar/blob/master/.github/workflows/crawler.yml
+https://github.com/sansan0/FinRadar/blob/master/.github/workflows/crawler.yml
 
 ### 2025/06/19 - v1.2.0
 
@@ -946,7 +946,7 @@ frequency_words.txt 文件增加了一个【必须词】功能，使用 + 号
 
 ### **个性化热点算法**
 
-不再被各个平台的算法牵着走，SHEFerRadar 会重新整理全网热搜
+不再被各个平台的算法牵着走，FinRadar 会重新整理全网热搜
 
 > 💡 三个比例可以调整，详见 [配置详解 - 热点权重调整](#4-热点权重调整)
 
@@ -1033,7 +1033,7 @@ ai_translation:
 
 > **部署方式**：点击 **Use this template** 创建仓库，可部署到 Cloudflare Pages 或 GitHub Pages 等静态托管平台。
 >
-> **💡 提示**：启用 GitHub Pages 可获得在线访问地址，进入仓库 Settings → Pages 即可开启。[效果预览](https://sansan0.github.io/SHEFerRadar/)
+> **💡 提示**：启用 GitHub Pages 可获得在线访问地址，进入仓库 Settings → Pages 即可开启。[效果预览](https://sansan0.github.io/FinRadar/)
 >
 > ⚠️ 原 GitHub Actions 自动存储功能已下线（该方案曾导致 GitHub 服务器负载过高，影响平台稳定性）。
 
@@ -1055,7 +1055,7 @@ ai_translation:
 
 ## 🚀 快速开始
 
-> **提醒**：建议先 **[查看最新官方文档](https://github.com/sansan0/SHEFerRadar?tab=readme-ov-file)**，确保配置步骤是最新的。
+> **提醒**：建议先 **[查看最新官方文档](https://github.com/sansan0/FinRadar?tab=readme-ov-file)**，确保配置步骤是最新的。
 
 ### 请选择适合你的部署方式
 
@@ -1077,7 +1077,7 @@ ai_translation:
 
    > ⚠️ 提醒：
    > - 后续文档中提到的 "Fork" 均可理解为 "Use this template"
-   > - 使用 Fork 可能导致运行异常，详见 [Issue #606](https://github.com/sansan0/SHEFerRadar/issues/606)
+   > - 使用 Fork 可能导致运行异常，详见 [Issue #606](https://github.com/sansan0/FinRadar/issues/606)
 
    <br>
 
@@ -1117,7 +1117,7 @@ ai_translation:
    #### 手机端设置：
    1. 打开企业微信 App → 进入目标内部群聊
    2. 点击右上角"…"按钮 → 选择"消息推送"
-   3. 点击"添加" → 名称输入"SHEFerRadar"
+   3. 点击"添加" → 名称输入"FinRadar"
    4. 复制 Webhook 地址，点击保存，复制的内容配置到上方的 GitHub Secret 中
 
    #### PC 端设置流程类似
@@ -1167,7 +1167,7 @@ ai_translation:
 
    有两个方案，**方案一**配置简单，**方案二**配置复杂(但是稳定推送)
 
-   其中方案一，由 **ziventian**发现并提供建议，在这里感谢他，默认是个人推送，也可以配置群组推送操作[#97](https://github.com/sansan0/SHEFerRadar/issues/97) ，
+   其中方案一，由 **ziventian**发现并提供建议，在这里感谢他，默认是个人推送，也可以配置群组推送操作[#97](https://github.com/sansan0/FinRadar/issues/97) ，
 
    **方案一：**
 
@@ -1194,7 +1194,7 @@ ai_translation:
 
    6. 点击"选择操作" > "通过官方机器人发消息"
 
-   7. 消息标题填写"SHEFerRadar 热点监控"
+   7. 消息标题填写"FinRadar 热点监控"
 
    8. 最关键的部分来了，点击 + 按钮，选择"Webhook 触发"，然后按照下面的图片摆放
 
@@ -1229,7 +1229,7 @@ ai_translation:
 
    7. 点击"选择操作" > "发送飞书消息"，勾选 "群消息"，然后点击下面的输入框，点击"我管理的群组"（如果没有群组，你可以在飞书 app 上创建群组）
 
-   8. 消息标题填写"SHEFerRadar 热点监控"
+   8. 消息标题填写"FinRadar 热点监控"
 
    9. 最关键的部分来了，点击 + 按钮，选择"Webhook 触发"，然后按照下面的图片摆放
 
@@ -1368,14 +1368,14 @@ ai_translation:
    > **自动识别**：使用以上邮箱时，无需手动配置 `EMAIL_SMTP_SERVER` 和 `EMAIL_SMTP_PORT`，系统会自动识别。
    >
    > **反馈说明**：
-   > - 如果你使用**其他邮箱**测试成功，欢迎开 [Issues](https://github.com/sansan0/SHEFerRadar/issues) 告知，我会添加到支持列表
-   > - 如果上述邮箱配置有误或无法使用，也请开 [Issues](https://github.com/sansan0/SHEFerRadar/issues) 反馈，帮助改进项目
+   > - 如果你使用**其他邮箱**测试成功，欢迎开 [Issues](https://github.com/sansan0/FinRadar/issues) 告知，我会添加到支持列表
+   > - 如果上述邮箱配置有误或无法使用，也请开 [Issues](https://github.com/sansan0/FinRadar/issues) 反馈，帮助改进项目
    >
    > **特别感谢**：
-   > - 感谢 [@DYZYD](https://github.com/DYZYD) 贡献天翼邮箱（189.cn）配置并完成自发自收测试 ([#291](https://github.com/sansan0/SHEFerRadar/issues/291))
-   > - 感谢 [@longzhenren](https://github.com/longzhenren) 贡献阿里云邮箱（aliyun.com）配置并完成测试 ([#344](https://github.com/sansan0/SHEFerRadar/issues/344))
-   > - 感谢 [@ACANX](https://github.com/ACANX) 贡献 Yandex 邮箱（yandex.com）配置并完成测试 ([#663](https://github.com/sansan0/SHEFerRadar/issues/663))
-   > - 感谢 [@Sleepy-Tianhao](https://github.com/Sleepy-Tianhao) 贡献 iCloud 邮箱（icloud.com）配置并完成测试 ([#728](https://github.com/sansan0/SHEFerRadar/issues/728))
+   > - 感谢 [@DYZYD](https://github.com/DYZYD) 贡献天翼邮箱（189.cn）配置并完成自发自收测试 ([#291](https://github.com/sansan0/FinRadar/issues/291))
+   > - 感谢 [@longzhenren](https://github.com/longzhenren) 贡献阿里云邮箱（aliyun.com）配置并完成测试 ([#344](https://github.com/sansan0/FinRadar/issues/344))
+   > - 感谢 [@ACANX](https://github.com/ACANX) 贡献 Yandex 邮箱（yandex.com）配置并完成测试 ([#663](https://github.com/sansan0/FinRadar/issues/663))
+   > - 感谢 [@Sleepy-Tianhao](https://github.com/Sleepy-Tianhao) 贡献 iCloud 邮箱（icloud.com）配置并完成测试 ([#728](https://github.com/sansan0/FinRadar/issues/728))
 
    **常见邮箱设置：**
 
@@ -1431,11 +1431,11 @@ ai_translation:
 
    2. **订阅主题**（选择一个难猜的名称）：
       ```
-      建议格式：SHEFerRadar-{你的名字缩写}-{随机数字}
+      建议格式：FinRadar-{你的名字缩写}-{随机数字}
    
       不能使用中文
       
-      ✅ 好例子：SHEFerRadar-zs-8492
+      ✅ 好例子：FinRadar-zs-8492
       ❌ 坏例子：news、alerts（太容易被猜到）
       ```
 
@@ -1478,10 +1478,10 @@ ai_translation:
      serve --cache-file /var/cache/ntfy/cache.db
    ```
 
-   **配置 SHEFerRadar**：
+   **配置 FinRadar**：
    ```yaml
    NTFY_SERVER_URL: https://ntfy.yourdomain.com
-   NTFY_TOPIC: SHEFerRadar-alerts  # 自托管可用简单名称
+   NTFY_TOPIC: FinRadar-alerts  # 自托管可用简单名称
    NTFY_TOKEN: tk_your_token  # 可选：启用访问控制
    ```
 
@@ -1504,7 +1504,7 @@ ai_translation:
    <details>
    <summary><strong>Q2: Topic 名称真的安全吗？</strong></summary>
 
-   如果你选择随机的、足够长的名称（如 `SHEFerRadar-zs-8492-news`），暴力破解几乎不可能：
+   如果你选择随机的、足够长的名称（如 `FinRadar-zs-8492-news`），暴力破解几乎不可能：
    - ntfy 有严格的速率限制（1 秒 1 次请求）
    - 64 个字符选择（A-Z, a-z, 0-9, _, -）
    - 10 位随机字符串有 64^10 种可能性（需要数年才能破解）
@@ -1565,7 +1565,7 @@ ai_translation:
      finab/bark-server
    ```
 
-   **配置 SHEFerRadar**：
+   **配置 FinRadar**：
    ```yaml
    BARK_URL: http://your-server-ip:8080/your_device_key
    ```
@@ -1611,7 +1611,7 @@ ai_translation:
       - 点击 **"From scratch"**（从头开始创建）
 
    3. **填写 App 信息**：
-      - **App Name**：填写应用名称（如 `SHEFerRadar` 或 `热点新闻监控`）
+      - **App Name**：填写应用名称（如 `FinRadar` 或 `热点新闻监控`）
       - **Workspace**：从下拉列表选择你的工作空间
       - 点击 **"Create App"** 按钮
 
@@ -1651,7 +1651,7 @@ ai_translation:
       - 点击 URL 右侧的 **"Copy"** 按钮
       - 或手动选中 URL 并复制
 
-   3. **配置到 SHEFerRadar**：
+   3. **配置到 FinRadar**：
       - **GitHub Actions**：将 URL 添加到 GitHub Secrets 中的 `SLACK_WEBHOOK_URL`
       - **本地测试**：将 URL 填入 `config/config.yaml` 的 `slack_webhook_url` 字段
       - **Docker 部署**：将 URL 添加到 `docker/.env` 文件的 `SLACK_WEBHOOK_URL` 变量
@@ -1736,7 +1736,7 @@ ai_translation:
    {"content": "{content}"}
 
    # 自定义格式
-   {"text": "{content}", "username": "SHEFerRadar"}
+   {"text": "{content}", "username": "FinRadar"}
    ```
 
    ---
@@ -1761,16 +1761,16 @@ ai_translation:
    **如何找到你的 Actions 页面**：
 
    - **方法一**：打开你 fork 的项目主页，点击顶部的 **Actions** 标签
-   - **方法二**：直接访问 `https://github.com/你的用户名/SHEFerRadar/actions`
+   - **方法二**：直接访问 `https://github.com/你的用户名/FinRadar/actions`
 
    **示例对比**：
-   - ❌ 作者的项目：`https://github.com/sansan0/SHEFerRadar/actions`
-   - ✅ 你的项目：`https://github.com/你的用户名/SHEFerRadar/actions`
+   - ❌ 作者的项目：`https://github.com/sansan0/FinRadar/actions`
+   - ✅ 你的项目：`https://github.com/你的用户名/FinRadar/actions`
 
    **测试步骤**：
    1. 进入你项目的 Actions 页面
    2. 找到 **"Get Hot News"**(必须得是这个字)点进去，点击右侧的 **"Run workflow"** 按钮运行 
-      - 如果看不到该字样，参照 [#109](https://github.com/sansan0/SHEFerRadar/issues/109) 解决
+      - 如果看不到该字样，参照 [#109](https://github.com/sansan0/FinRadar/issues/109) 解决
    3. 3 分钟左右，消息会推送到你配置的平台
 
    <br>
@@ -1837,7 +1837,7 @@ ai_translation:
 
    | Name（名称） | Secret（值）说明 |
    |-------------|-----------------|
-   | `S3_BUCKET_NAME` | 存储桶名称（如 `SHEFerRadar-data`） |
+   | `S3_BUCKET_NAME` | 存储桶名称（如 `FinRadar-data`） |
    | `S3_ACCESS_KEY_ID` | 访问密钥 ID（Access Key ID） |
    | `S3_SECRET_ACCESS_KEY` | 访问密钥（Secret Access Key） |
    | `S3_ENDPOINT_URL` | S3 API 端点（如 R2：`https://<account-id>.r2.cloudflarestorage.com`） |
@@ -1861,7 +1861,7 @@ ai_translation:
    2. **创建存储桶**：
       - 点击`概述`
       - 点击右上角的 `创建存储桶` (Create bucket)。
-      - 输入名称（例如 `SHEFerRadar-data`），点击 `创建存储桶`。
+      - 输入名称（例如 `FinRadar-data`），点击 `创建存储桶`。
 
    3. **创建 API 令牌**：
       - 回到 **概述**页面。
@@ -1871,7 +1871,7 @@ ai_translation:
       - **⚠️ 关键设置**：
         - **令牌名称**：随意填写（如 `github-action-write`）。
         - **权限**：选择 `管理员读和写` 。
-        - **指定存储桶**：为了安全，建议选择 `仅适用于指定存储桶` 并选中你的桶（如 `SHEFerRadar-data`）。
+        - **指定存储桶**：为了安全，建议选择 `仅适用于指定存储桶` 并选中你的桶（如 `FinRadar-data`）。
       - 点击 `创建 API 令牌`，**立即复制** 显示的 `Access Key ID` 和 `Secret Access Key`（只显示一次！）。
 
    </details>
@@ -1893,7 +1893,7 @@ ai_translation:
 
 ### 7️⃣ 第七步：🎉 部署成功！
 
-   恭喜！现在你可以开始享受 SHEFerRadar 带来的高效信息流了。
+   恭喜！现在你可以开始享受 FinRadar 带来的高效信息流了。
 
    💬 **加入社区**：欢迎关注公众号「**[硅基茶水间](#-支持项目)**」，分享你的使用心得和高级玩法。
 
@@ -1901,7 +1901,7 @@ ai_translation:
 
 ### 8️⃣ 第八步：进阶：选择你的 AI 助手
 
-   SHEFerRadar 提供了两种 AI 使用方式，满足不同需求：
+   FinRadar 提供了两种 AI 使用方式，满足不同需求：
 
    | 特性 | ✨ AI 分析推送 | 🧠 AI 智能分析 |
    | :--- | :--- | :--- |
@@ -1946,7 +1946,7 @@ platforms:
     # 添加更多平台...
 ```
 
-> 💡 **快捷方式**：如果不会看源代码，可以复制他人整理好的 [平台配置汇总](https://github.com/sansan0/SHEFerRadar/issues/95)
+> 💡 **快捷方式**：如果不会看源代码，可以复制他人整理好的 [平台配置汇总](https://github.com/sansan0/FinRadar/issues/95)
 
 > ⚠️ **注意**：平台不是越多越好，建议选择 10-15 个核心平台。过多平台会导致信息过载，反而降低使用体验。
 
@@ -2511,15 +2511,15 @@ advanced:
 
 **镜像说明：**
 
-SHEFerRadar 提供两个独立的 Docker 镜像，可根据需求选择部署：
+FinRadar 提供两个独立的 Docker 镜像，可根据需求选择部署：
 
 | 镜像名称 | 用途 | 说明 |
 |---------|------|------|
-| `wantcat/SHEFerRadar` | 新闻推送服务 | 定时抓取新闻、推送通知（必选） |
-| `wantcat/SHEFerRadar-mcp` | AI 分析服务 | MCP 协议支持、AI 对话分析（可选） |
+| `wantcat/FinRadar` | 新闻推送服务 | 定时抓取新闻、推送通知（必选） |
+| `wantcat/FinRadar-mcp` | AI 分析服务 | MCP 协议支持、AI 对话分析（可选） |
 
 > 💡 **建议**：
-> - 只需要推送功能：仅部署 `wantcat/SHEFerRadar` 镜像
+> - 只需要推送功能：仅部署 `wantcat/FinRadar` 镜像
 > - 需要 AI 分析功能：同时部署两个镜像
 
 <details>
@@ -2533,24 +2533,24 @@ SHEFerRadar 提供两个独立的 Docker 镜像，可根据需求选择部署：
    **方式 1-A：使用 git clone（推荐，最简单）**
    ```bash
    # 克隆项目到本地
-   git clone https://github.com/sansan0/SHEFerRadar.git
-   cd SHEFerRadar
+   git clone https://github.com/sansan0/FinRadar.git
+   cd FinRadar
    ```
 
    **方式 1-B：使用 wget 下载配置文件**
    ```bash
    # 创建目录结构
-   mkdir -p SHEFerRadar/{config,docker}
-   cd SHEFerRadar
+   mkdir -p FinRadar/{config,docker}
+   cd FinRadar
 
    # 下载配置文件模板
-   wget https://raw.githubusercontent.com/sansan0/SHEFerRadar/master/config/config.yaml -P config/
-   wget https://raw.githubusercontent.com/sansan0/SHEFerRadar/master/config/frequency_words.txt -P config/
-   wget https://raw.githubusercontent.com/sansan0/SHEFerRadar/master/config/ai_analysis_prompt.txt -P config/
+   wget https://raw.githubusercontent.com/sansan0/FinRadar/master/config/config.yaml -P config/
+   wget https://raw.githubusercontent.com/sansan0/FinRadar/master/config/frequency_words.txt -P config/
+   wget https://raw.githubusercontent.com/sansan0/FinRadar/master/config/ai_analysis_prompt.txt -P config/
 
    # 下载 docker compose 配置
-   wget https://raw.githubusercontent.com/sansan0/SHEFerRadar/master/docker/.env  -P docker/
-   wget https://raw.githubusercontent.com/sansan0/SHEFerRadar/master/docker/docker-compose.yml  -P docker/
+   wget https://raw.githubusercontent.com/sansan0/FinRadar/master/docker/.env  -P docker/
+   wget https://raw.githubusercontent.com/sansan0/FinRadar/master/docker/docker-compose.yml  -P docker/
    ```
 
    > 💡 **说明**：Docker 部署需要的关键目录结构如下：
@@ -2604,43 +2604,43 @@ SHEFerRadar 提供两个独立的 Docker 镜像，可根据需求选择部署：
    # 拉取最新镜像
    docker compose pull
 
-   # 启动所有服务（SHEFerRadar + SHEFerRadar-mcp）
+   # 启动所有服务（FinRadar + FinRadar-mcp）
    docker compose up -d
    ```
 
    **选项 B：仅启动新闻推送服务**
    ```bash
-   # 只启动 SHEFerRadar（定时抓取和推送）
-   docker compose pull SHEFerRadar
-   docker compose up -d SHEFerRadar
+   # 只启动 FinRadar（定时抓取和推送）
+   docker compose pull FinRadar
+   docker compose up -d FinRadar
    ```
 
    **选项 C：仅启动 MCP AI 分析服务**
    ```bash
-   # 只启动 SHEFerRadar-mcp（提供 AI 分析接口）
-   docker compose pull SHEFerRadar-mcp
-   docker compose up -d SHEFerRadar-mcp
+   # 只启动 FinRadar-mcp（提供 AI 分析接口）
+   docker compose pull FinRadar-mcp
+   docker compose up -d FinRadar-mcp
    ```
 
    > 💡 **提示**：
-   > - 大多数用户只需启动 `SHEFerRadar` 即可实现新闻推送功能
-   > - 只有需要使用 ChatGPT/Gemini 进行 AI 对话分析时，才需启动 `SHEFerRadar-mcp`
+   > - 大多数用户只需启动 `FinRadar` 即可实现新闻推送功能
+   > - 只有需要使用 ChatGPT/Gemini 进行 AI 对话分析时，才需启动 `FinRadar-mcp`
    > - 两个服务相互独立，可根据需求灵活组合
 
 4. **查看运行状态**:
    ```bash
    # 查看新闻推送服务日志
-   docker logs -f SHEFerRadar
+   docker logs -f FinRadar
 
    # 查看 MCP AI 分析服务日志
-   docker logs -f SHEFerRadar-mcp
+   docker logs -f FinRadar-mcp
 
    # 查看所有容器状态
-   docker ps | grep SHEFerRadar
+   docker ps | grep FinRadar
 
    # 停止特定服务
-   docker compose stop SHEFerRadar      # 停止推送服务
-   docker compose stop SHEFerRadar-mcp  # 停止 MCP 服务
+   docker compose stop FinRadar      # 停止推送服务
+   docker compose stop FinRadar-mcp  # 停止 MCP 服务
    ```
 
 #### 方式二：本地构建（开发者选项）
@@ -2649,8 +2649,8 @@ SHEFerRadar 提供两个独立的 Docker 镜像，可根据需求选择部署：
 
 ```bash
 # 克隆项目
-git clone https://github.com/sansan0/SHEFerRadar.git
-cd SHEFerRadar
+git clone https://github.com/sansan0/FinRadar.git
+cd FinRadar
 
 # 修改配置文件
 vim config/config.yaml
@@ -2669,12 +2669,12 @@ docker compose build
 docker compose up -d
 
 # 选项 B：仅构建并启动新闻推送服务
-docker compose build SHEFerRadar
-docker compose up -d SHEFerRadar
+docker compose build FinRadar
+docker compose up -d FinRadar
 
 # 选项 C：仅构建并启动 MCP AI 分析服务
-docker compose build SHEFerRadar-mcp
-docker compose up -d SHEFerRadar-mcp
+docker compose build FinRadar-mcp
+docker compose up -d FinRadar-mcp
 ```
 
 > 💡 **架构参数说明**：
@@ -2689,8 +2689,8 @@ docker compose up -d SHEFerRadar-mcp
 
 ```bash
 # 方式一：手动更新（爬虫 + MCP 镜像）
-docker pull wantcat/SHEFerRadar:latest
-docker pull wantcat/SHEFerRadar-mcp:latest
+docker pull wantcat/FinRadar:latest
+docker pull wantcat/FinRadar-mcp:latest
 docker compose down
 docker compose up -d
 
@@ -2703,43 +2703,43 @@ docker compose up -d
 
 | 镜像名称 | 用途 | 说明 |
 |---------|------|------|
-| `wantcat/SHEFerRadar` | 新闻推送服务 | 定时抓取新闻、推送通知 |
-| `wantcat/SHEFerRadar-mcp` | MCP 服务 | AI 分析功能（可选） |
+| `wantcat/FinRadar` | 新闻推送服务 | 定时抓取新闻、推送通知 |
+| `wantcat/FinRadar-mcp` | MCP 服务 | AI 分析功能（可选） |
 
 #### 服务管理命令
 
 ```bash
 # 查看运行状态
-docker exec -it SHEFerRadar python manage.py status
+docker exec -it FinRadar python manage.py status
 
 # 手动执行一次爬虫
-docker exec -it SHEFerRadar python manage.py run
+docker exec -it FinRadar python manage.py run
 
 # 查看实时日志
-docker exec -it SHEFerRadar python manage.py logs
+docker exec -it FinRadar python manage.py logs
 
 # 显示当前配置
-docker exec -it SHEFerRadar python manage.py config
+docker exec -it FinRadar python manage.py config
 
 # 显示输出文件
-docker exec -it SHEFerRadar python manage.py files
+docker exec -it FinRadar python manage.py files
 
 # Web 服务器管理（用于浏览器访问生成的报告）
-docker exec -it SHEFerRadar python manage.py start_webserver   # 启动 Web 服务器
-docker exec -it SHEFerRadar python manage.py stop_webserver    # 停止 Web 服务器
-docker exec -it SHEFerRadar python manage.py webserver_status  # 查看 Web 服务器状态
+docker exec -it FinRadar python manage.py start_webserver   # 启动 Web 服务器
+docker exec -it FinRadar python manage.py stop_webserver    # 停止 Web 服务器
+docker exec -it FinRadar python manage.py webserver_status  # 查看 Web 服务器状态
 
 # 查看帮助信息
-docker exec -it SHEFerRadar python manage.py help
+docker exec -it FinRadar python manage.py help
 
 # 重启容器
-docker restart SHEFerRadar
+docker restart FinRadar
 
 # 停止容器
-docker stop SHEFerRadar
+docker stop FinRadar
 
 # 删除容器（保留数据）
-docker rm SHEFerRadar
+docker rm FinRadar
 ```
 
 > 💡 **Web 服务器说明**：
@@ -2755,7 +2755,7 @@ docker rm SHEFerRadar
 
 **📊 网页版报告访问路径**：
 
-SHEFerRadar 生成的当日汇总 HTML 报告会同时保存到两个位置：
+FinRadar 生成的当日汇总 HTML 报告会同时保存到两个位置：
 
 | 文件位置 | 访问方式 | 适用场景 |
 |---------|---------|---------|
@@ -2767,7 +2767,7 @@ SHEFerRadar 生成的当日汇总 HTML 报告会同时保存到两个位置：
 ```bash
 # 方式 1：通过 Web 服务器访问（推荐，Docker 环境）
 # 1. 启动 Web 服务器
-docker exec -it SHEFerRadar python manage.py start_webserver
+docker exec -it FinRadar python manage.py start_webserver
 # 2. 在浏览器访问
 http://localhost:8080                           # 访问最新报告（默认 index.html）
 http://localhost:8080/html/2025-xx-xx/          # 访问指定日期的报告
@@ -2791,16 +2791,16 @@ open ./output/html/2025-xx-xx/当日汇总.html
 
 ```bash
 # 检查容器状态
-docker inspect SHEFerRadar
+docker inspect FinRadar
 
 # 查看容器日志
-docker logs --tail 100 SHEFerRadar
+docker logs --tail 100 FinRadar
 
 # 进入容器调试
-docker exec -it SHEFerRadar /bin/bash
+docker exec -it FinRadar /bin/bash
 
 # 验证配置文件
-docker exec -it SHEFerRadar ls -la /app/config/
+docker exec -it FinRadar ls -la /app/config/
 ```
 
 #### MCP 服务部署（AI 分析功能）
@@ -2811,12 +2811,12 @@ docker exec -it SHEFerRadar ls -la /app/config/
 
 ```mermaid
 flowchart TB
-    subgraph SHEFerRadar["SHEFerRadar"]
+    subgraph FinRadar["FinRadar"]
         A1[定时抓取新闻]
         A2[推送通知]
     end
     
-    subgraph SHEFerRadar-mcp["SHEFerRadar-mcp"]
+    subgraph FinRadar-mcp["FinRadar-mcp"]
         B1[127.0.0.1:3333]
         B2[AI 分析接口]
     end
@@ -2826,8 +2826,8 @@ flowchart TB
         C2["output/ (ro)"]
     end
     
-    SHEFerRadar --> shared
-    SHEFerRadar-mcp --> shared
+    FinRadar --> shared
+    FinRadar-mcp --> shared
 ```
 
 **快速启动**：
@@ -2835,31 +2835,31 @@ flowchart TB
 如果已按照 [方式一：使用 docker compose](#方式一使用-docker-compose推荐) 完成部署，只需启动 MCP 服务：
 
 ```bash
-cd SHEFerRadar/docker
-docker compose up -d SHEFerRadar-mcp
+cd FinRadar/docker
+docker compose up -d FinRadar-mcp
 
 # 查看运行状态
-docker ps | grep SHEFerRadar-mcp
+docker ps | grep FinRadar-mcp
 ```
 
 **单独启动 MCP 服务**（不使用 docker compose）：
 
 ```bash
 # Linux/Mac
-docker run -d --name SHEFerRadar-mcp \
+docker run -d --name FinRadar-mcp \
   -p 127.0.0.1:3333:3333 \
   -v $(pwd)/config:/app/config:ro \
   -v $(pwd)/output:/app/output:ro \
   -e TZ=Asia/Shanghai \
-  wantcat/SHEFerRadar-mcp:latest
+  wantcat/FinRadar-mcp:latest
 
 # Windows PowerShell
-docker run -d --name SHEFerRadar-mcp `
+docker run -d --name FinRadar-mcp `
   -p 127.0.0.1:3333:3333 `
   -v ${PWD}/config:/app/config:ro `
   -v ${PWD}/output:/app/output:ro `
   -e TZ=Asia/Shanghai `
-  wantcat/SHEFerRadar-mcp:latest
+  wantcat/FinRadar-mcp:latest
 ```
 
 > ⚠️ **注意**：单独运行时，确保当前目录下有 `config/` 和 `output/` 文件夹，且包含配置文件和新闻数据。
@@ -2871,7 +2871,7 @@ docker run -d --name SHEFerRadar-mcp `
 curl http://127.0.0.1:3333/mcp
 
 # 查看 MCP 服务日志
-docker logs -f SHEFerRadar-mcp
+docker logs -f FinRadar-mcp
 ```
 
 **在 AI 客户端中配置**：
@@ -2887,7 +2887,7 @@ MCP 服务启动后，根据不同客户端进行配置：
 ```json
 {
   "mcpServers": {
-    "SHEFerRadar": {
+    "FinRadar": {
       "url": "http://127.0.0.1:3333/mcp",
       "type": "streamableHttp"
     }
@@ -3301,7 +3301,7 @@ ai_translation:
 
 ## ✨ AI 智能分析
 
-SHEFerRadar v3.0.0 新增了基于 **MCP (Model Context Protocol)** 的 AI 分析功能，让你可以通过自然语言与新闻数据对话，进行深度分析。
+FinRadar v3.0.0 新增了基于 **MCP (Model Context Protocol)** 的 AI 分析功能，让你可以通过自然语言与新闻数据对话，进行深度分析。
 
 
 ### ⚠️ 使用前必读
@@ -3350,13 +3350,13 @@ Cherry Studio 提供 GUI 配置界面，5 分钟快速部署，复杂的部分�
 
 ## 🔌 MCP 客户端
 
-SHEFerRadar MCP 服务支持标准的 Model Context Protocol (MCP) 协议，可以接入各种支持 MCP 的 AI 客户端进行智能分析。
+FinRadar MCP 服务支持标准的 Model Context Protocol (MCP) 协议，可以接入各种支持 MCP 的 AI 客户端进行智能分析。
 
 ### 支持的客户端
 
 **注意事项**：
-- 将 `/path/to/SHEFerRadar` 替换为你的项目实际路径
-- Windows 路径使用双反斜杠：`C:\\Users\\YourName\\SHEFerRadar`
+- 将 `/path/to/FinRadar` 替换为你的项目实际路径
+- Windows 路径使用双反斜杠：`C:\\Users\\YourName\\FinRadar`
 - 保存后记得重启
 
 <details>
@@ -3380,9 +3380,9 @@ SHEFerRadar MCP 服务支持标准的 Model Context Protocol (MCP) 协议，可�
    ```json
    {
      "mcpServers": {
-       "SHEFerRadar": {
+       "FinRadar": {
          "url": "http://localhost:3333/mcp",
-         "description": "SHEFerRadar 新闻热点聚合分析"
+         "description": "FinRadar 新闻热点聚合分析"
        }
      }
    }
@@ -3402,11 +3402,11 @@ SHEFerRadar MCP 服务支持标准的 Model Context Protocol (MCP) 协议，可�
 ```json
 {
   "mcpServers": {
-    "SHEFerRadar": {
+    "FinRadar": {
       "command": "uv",
       "args": [
         "--directory",
-        "/path/to/SHEFerRadar",
+        "/path/to/FinRadar",
         "run",
         "python",
         "-m",
@@ -3429,7 +3429,7 @@ SHEFerRadar MCP 服务支持标准的 Model Context Protocol (MCP) 协议，可�
 **HTTP 模式**：
 ```json
 {
-  "SHEFerRadar": {
+  "FinRadar": {
     "url": "http://localhost:3333/mcp",
     "type": "streamableHttp",
     "autoApprove": [],
@@ -3441,11 +3441,11 @@ SHEFerRadar MCP 服务支持标准的 Model Context Protocol (MCP) 协议，可�
 **STDIO 模式**（推荐）：
 ```json
 {
-  "SHEFerRadar": {
+  "FinRadar": {
     "command": "uv",
     "args": [
       "--directory",
-      "/path/to/SHEFerRadar",
+      "/path/to/FinRadar",
       "run",
       "python",
       "-m",
@@ -3470,7 +3470,7 @@ SHEFerRadar MCP 服务支持标准的 Model Context Protocol (MCP) 协议，可�
           "command": "uv",
           "args": [
             "--directory",
-            "/path/to/SHEFerRadar",
+            "/path/to/FinRadar",
             "run",
             "python",
             "-m",
@@ -3500,7 +3500,7 @@ MCP Inspector 是官方调试工具，用于测试 MCP 连接：
 
 #### 使用步骤
 
-1. **启动 SHEFerRadar HTTP 服务**：
+1. **启动 FinRadar HTTP 服务**：
    ```bash
    # Windows
    start-http.bat
@@ -3530,7 +3530,7 @@ MCP Inspector 是官方调试工具，用于测试 MCP 连接：
 <summary>👉 点击展开：<b>其他支持 MCP 的客户端</b></summary>
 <br>
 
-任何支持 Model Context Protocol 的客户端都可以连接 SHEFerRadar：
+任何支持 Model Context Protocol 的客户端都可以连接 FinRadar：
 
 #### HTTP 模式
 
@@ -3539,7 +3539,7 @@ MCP Inspector 是官方调试工具，用于测试 MCP 连接：
 **基本配置模板**：
 ```json
 {
-  "name": "SHEFerRadar",
+  "name": "FinRadar",
   "url": "http://localhost:3333/mcp",
   "type": "http",
   "description": "新闻热点聚合分析"
@@ -3551,11 +3551,11 @@ MCP Inspector 是官方调试工具，用于测试 MCP 连接：
 **基本配置模板**：
 ```json
 {
-  "name": "SHEFerRadar",
+  "name": "FinRadar",
   "command": "uv",
   "args": [
     "--directory",
-    "/path/to/SHEFerRadar",
+    "/path/to/FinRadar",
     "run",
     "python",
     "-m",
@@ -3566,7 +3566,7 @@ MCP Inspector 是官方调试工具，用于测试 MCP 连接：
 ```
 
 **注意事项**：
-- 替换 `/path/to/SHEFerRadar` 为实际项目路径
+- 替换 `/path/to/FinRadar` 为实际项目路径
 - Windows 路径使用反斜杠转义：`C:\\Users\\...`
 - 确保已完成项目依赖安装（运行过 setup 脚本）
 
@@ -3682,7 +3682,7 @@ MCP Inspector 是官方调试工具，用于测试 MCP 连接：
 - https://github.com/sansan0/bilibili-comment-analyzer
 
 
-[![Star History Chart](https://api.star-history.com/svg?repos=sansan0/SHEFerRadar&type=Date)](https://www.star-history.com/#sansan0/SHEFerRadar&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=sansan0/FinRadar&type=Date)](https://www.star-history.com/#sansan0/FinRadar&Date)
 
 <br>
 
@@ -3694,6 +3694,6 @@ GPL-3.0 License
 
 <div align="center">
 
-[🔝 回到顶部](#SHEFerRadar)
+[🔝 回到顶部](#FinRadar)
 
 </div>

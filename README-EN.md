@@ -1,22 +1,22 @@
-<div align="center" id="SHEFerRadar">
+<div align="center" id="FinRadar">
 
-<a href="https://github.com/sansan0/SHEFerRadar" title="SHEFerRadar">
-  <img src="/_image/banner.webp" alt="SHEFerRadar Banner" width="80%">
+<a href="https://github.com/sansan0/FinRadar" title="FinRadar">
+  <img src="/_image/banner.webp" alt="FinRadar Banner" width="80%">
 </a>
 
 Deploy in <strong>30 seconds</strong> — Say goodbye to endless scrolling, only see the news you truly care about
 
-<a href="https://trendshift.io/repositories/14726" target="_blank"><img src="https://trendshift.io/api/badge/repositories/14726" alt="sansan0%2FSHEFerRadar | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+<a href="https://trendshift.io/repositories/14726" target="_blank"><img src="https://trendshift.io/api/badge/repositories/14726" alt="sansan0%2FFinRadar | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
 <a href="https://shandianshuo.cn" target="_blank" title="AI Voice Input, 4x Faster Than Typing ⚡"><img src="_image/shandianshuo.png" alt="FlashSpeak logo" height="50"/></a>
 
-[![GitHub Stars](https://img.shields.io/github/stars/sansan0/SHEFerRadar?style=flat-square&logo=github&color=yellow)](https://github.com/sansan0/SHEFerRadar/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/sansan0/SHEFerRadar?style=flat-square&logo=github&color=blue)](https://github.com/sansan0/SHEFerRadar/network/members)
+[![GitHub Stars](https://img.shields.io/github/stars/sansan0/FinRadar?style=flat-square&logo=github&color=yellow)](https://github.com/sansan0/FinRadar/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/sansan0/FinRadar?style=flat-square&logo=github&color=blue)](https://github.com/sansan0/FinRadar/network/members)
 [![License](https://img.shields.io/badge/license-GPL--3.0-blue.svg?style=flat-square)](LICENSE)
-[![Version](https://img.shields.io/badge/version-v5.4.0-blue.svg)](https://github.com/sansan0/SHEFerRadar)
-[![MCP](https://img.shields.io/badge/MCP-v3.1.7-green.svg)](https://github.com/sansan0/SHEFerRadar)
-[![RSS](https://img.shields.io/badge/RSS-Feed_Support-orange.svg?style=flat-square&logo=rss&logoColor=white)](https://github.com/sansan0/SHEFerRadar)
-[![AI Translation](https://img.shields.io/badge/AI-Multi--Language-purple.svg?style=flat-square)](https://github.com/sansan0/SHEFerRadar)
+[![Version](https://img.shields.io/badge/version-v5.4.0-blue.svg)](https://github.com/sansan0/FinRadar)
+[![MCP](https://img.shields.io/badge/MCP-v3.1.7-green.svg)](https://github.com/sansan0/FinRadar)
+[![RSS](https://img.shields.io/badge/RSS-Feed_Support-orange.svg?style=flat-square&logo=rss&logoColor=white)](https://github.com/sansan0/FinRadar)
+[![AI Translation](https://img.shields.io/badge/AI-Multi--Language-purple.svg?style=flat-square)](https://github.com/sansan0/FinRadar)
 
 [![WeWork](https://img.shields.io/badge/WeWork-Notification-00D4AA?style=flat-square)](https://work.weixin.qq.com/)
 [![WeChat](https://img.shields.io/badge/WeChat-Notification-00D4AA?style=flat-square)](https://weixin.qq.com/)
@@ -30,9 +30,9 @@ Deploy in <strong>30 seconds</strong> — Say goodbye to endless scrolling, only
 [![Generic Webhook](https://img.shields.io/badge/Generic-Webhook-607D8B?style=flat-square&logo=webhook&logoColor=white)](#)
 
 
-[![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-Automation-2088FF?style=flat-square&logo=github-actions&logoColor=white)](https://github.com/sansan0/SHEFerRadar)
-[![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-Deployment-4285F4?style=flat-square&logo=github&logoColor=white)](https://sansan0.github.io/SHEFerRadar)
-[![Docker](https://img.shields.io/badge/Docker-Deployment-2496ED?style=flat-square&logo=docker&logoColor=white)](https://hub.docker.com/r/wantcat/SHEFerRadar)
+[![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-Automation-2088FF?style=flat-square&logo=github-actions&logoColor=white)](https://github.com/sansan0/FinRadar)
+[![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-Deployment-4285F4?style=flat-square&logo=github&logoColor=white)](https://sansan0.github.io/FinRadar)
+[![Docker](https://img.shields.io/badge/Docker-Deployment-2496ED?style=flat-square&logo=docker&logoColor=white)](https://hub.docker.com/r/wantcat/FinRadar)
 [![MCP Support](https://img.shields.io/badge/MCP-AI_Analysis-FF6B6B?style=flat-square&logo=ai&logoColor=white)](https://modelcontextprotocol.io/)
 [![AI Analysis Push](https://img.shields.io/badge/AI-Analysis_Push-FF6B6B?style=flat-square&logo=openai&logoColor=white)](#)
 
@@ -76,7 +76,7 @@ Deploy in <strong>30 seconds</strong> — Say goodbye to endless scrolling, only
 > 1. **About the List**: The table below records supporters from the early stage (Angel Round) of the project. Due to the manual nature of statistics in the early days, **there may be omissions or incomplete records. If anyone was missed, it was unintentional, and we ask for your kind understanding**.
 > 2. **Future Plan**: To focus limited energy back on code development and feature iteration, **this list will no longer be manually maintained as of today**.
 >
-> Whether your name is on the list or not, your every bit of support is the cornerstone that allows SHEFerRadar to be where it is today. 🙏
+> Whether your name is on the list or not, your every bit of support is the cornerstone that allows FinRadar to be where it is today. 🙏
 
 ### Infrastructure Support
 
@@ -121,10 +121,10 @@ After communication, the author indicated no concerns about server pressure, but
 | *云 | 88 | 2025.11.13 | Good project |
 | *W | 6 | 2025.11.13 | |
 | *凯 | 1 | 2025.11.13 | |
-| 对*. | 1 | 2025.11.13 | Thanks for SHEFerRadar |
+| 对*. | 1 | 2025.11.13 | Thanks for FinRadar |
 | s*y | 1 | 2025.11.13 | |
 | **翔 | 10 | 2025.11.13 | Wish I found it earlier |
-| *韦 | 9.9 | 2025.11.13 | SHEFerRadar is awesome |
+| *韦 | 9.9 | 2025.11.13 | FinRadar is awesome |
 | h*p | 5 | 2025.11.12 | Support Chinese open source |
 | c*r | 6 | 2025.11.12 | |
 | a*n | 5 | 2025.11.12 | |
@@ -170,7 +170,7 @@ After communication, the author indicated no concerns about server pressure, but
 
 ## 📝 Changelog
 
->**📌 Check Latest Updates**: **[Original Repository Changelog](https://github.com/sansan0/SHEFerRadar?tab=readme-ov-file#-changelog)**:
+>**📌 Check Latest Updates**: **[Original Repository Changelog](https://github.com/sansan0/FinRadar?tab=readme-ov-file#-changelog)**:
 - **Tip**: Check [Changelog] to understand specific [Features]
 
 ### 2026/01/23 - v5.4.0
@@ -239,7 +239,7 @@ After communication, the author indicated no concerns about server pressure, but
 - **RSS Enhancement**: `get_latest_rss` supports multi-day queries (days param), cross-date URL deduplication
 - **Regex Matching Fix**: `get_trending_topics` supports `/pattern/` regex syntax and `display_name`
 - **Cache Optimization**: Added `make_cache_key()` function with param sorting + MD5 hash for consistency
-- **New check_version Tool**: Check SHEFerRadar and MCP Server version updates simultaneously
+- **New check_version Tool**: Check FinRadar and MCP Server version updates simultaneously
 
 
 <details>
@@ -370,7 +370,7 @@ This update refactors the push message structure into five distinct core section
 
 **🐳 Docker MCP Image Support**
 
-- Added independent MCP service image `wantcat/SHEFerRadar-mcp`
+- Added independent MCP service image `wantcat/FinRadar-mcp`
 - Supports Docker deployment of AI analysis features via HTTP interface (port 3333)
 - Dual-container architecture: News push service and MCP service run independently, can be scaled and restarted separately
 - See [Docker Deployment - MCP Service](#6-docker-deployment) for details
@@ -378,7 +378,7 @@ This update refactors the push message structure into five distinct core section
 **🌐 Web Server Support**
 
 - Added built-in web server for browser access to generated reports
-- Control via `manage.py` commands: `docker exec -it SHEFerRadar python manage.py start_webserver`
+- Control via `manage.py` commands: `docker exec -it FinRadar python manage.py start_webserver`
 - Access URL: `http://localhost:8080` (port configurable)
 - Security features: Static file service, directory restriction, localhost binding
 - Supports both auto-start and manual control modes
@@ -469,7 +469,7 @@ This update refactors the push message structure into five distinct core section
 > 📖 **Detailed Configuration Tutorial**: [Quick Start - Bark Push](#-quick-start)
 
 **🐛 Bug Fix**
-- Fixed issue where `ntfy_server_url` in `config.yaml` was ignored ([#345](https://github.com/sansan0/SHEFerRadar/issues/345))
+- Fixed issue where `ntfy_server_url` in `config.yaml` was ignored ([#345](https://github.com/sansan0/FinRadar/issues/345))
 
 **🔧 Upgrade Instructions**:
 - **GitHub Fork Users**: Update `main.py`, `config/config.yaml`, `.github/workflows/crawler.yml`
@@ -585,7 +585,7 @@ This update refactors the push message structure into five distinct core section
 
 ### 2025/10/10 - v2.4.3
 
-> Thanks to [nidaye996](https://github.com/sansan0/SHEFerRadar/issues/98) for discovering the UX issue
+> Thanks to [nidaye996](https://github.com/sansan0/FinRadar/issues/98) for discovering the UX issue
 
 - **Updates**:
   - Refactored "Silent Push Mode" naming to "Push Time Window Control", improving feature comprehension
@@ -627,7 +627,7 @@ This update refactors the push message structure into five distinct core section
 
 ### 2025/09/26 - v2.3.2
 
-- Fixed email notification config check being missed ([#88](https://github.com/sansan0/SHEFerRadar/issues/88))
+- Fixed email notification config check being missed ([#88](https://github.com/sansan0/FinRadar/issues/88))
 
 **Fix Description**:
 - Solved the issue where system still prompted "No webhook configured" even with correct email notification setup
@@ -669,7 +669,7 @@ This update refactors the push message structure into five distinct core section
 ### 2025/09/04 - v2.1.1
 
 - Fixed Docker unable to run properly on certain architectures
-- Officially released official Docker image wantcat/SHEFerRadar, supports multi-architecture
+- Officially released official Docker image wantcat/FinRadar, supports multi-architecture
 - Optimized Docker deployment process, can use quickly without local build
 
 
@@ -743,7 +743,7 @@ WeWork and Telegram push messages have length limits, I adopted splitting messag
 ### 2025/06/21 - v1.2.1
 
 Before this version, not only main.py needs copy replacement, crawler.yml also needs you to copy replacement
-https://github.com/sansan0/SHEFerRadar/blob/master/.github/workflows/crawler.yml
+https://github.com/sansan0/FinRadar/blob/master/.github/workflows/crawler.yml
 
 
 ### 2025/06/19 - v1.2.0
@@ -891,7 +891,7 @@ Real-time tracking of news popularity changes helps you understand not just "wha
 
 ### **Personalized Trending Algorithm**
 
-No longer controlled by platform algorithms, SHEFerRadar reorganizes all trending searches
+No longer controlled by platform algorithms, FinRadar reorganizes all trending searches
 
 > 💡 Weight adjustment guide: [Configuration Guide - Advanced Configuration](#4-advanced-configuration---hotspot-weight-adjustment)
 
@@ -978,7 +978,7 @@ After running, the `index.html` generated in the root directory is the complete 
 
 > **Deployment**: Click **Use this template** to create your repository, then deploy to Cloudflare Pages or GitHub Pages.
 >
-> **💡 Tip**: Enable GitHub Pages for an online URL. Go to Settings → Pages to enable. [Preview Effect](https://sansan0.github.io/SHEFerRadar/)
+> **💡 Tip**: Enable GitHub Pages for an online URL. Go to Settings → Pages to enable. [Preview Effect](https://sansan0.github.io/FinRadar/)
 >
 > ⚠️ The GitHub Actions auto-storage feature has been discontinued (this approach caused excessive load on GitHub servers, affecting platform stability).
 
@@ -1000,7 +1000,7 @@ Transform from "algorithm recommendation captivity" to "actively getting the inf
 
 ## 🚀 Quick Start
 
-> **Reminder**: You should first **[check the latest official documentation](https://github.com/sansan0/SHEFerRadar?tab=readme-ov-file)** to ensure the configuration steps are up to date.
+> **Reminder**: You should first **[check the latest official documentation](https://github.com/sansan0/FinRadar?tab=readme-ov-file)** to ensure the configuration steps are up to date.
 
 ### Choose the Deployment Method That Fits You
 
@@ -1023,7 +1023,7 @@ Transform from "algorithm recommendation captivity" to "actively getting the inf
 
    > ⚠️ Note:
    > - Any mention of "Fork" in this document can be understood as "Use this template"
-   > - Using Fork may cause runtime issues, see [Issue #606](https://github.com/sansan0/SHEFerRadar/issues/606)
+   > - Using Fork may cause runtime issues, see [Issue #606](https://github.com/sansan0/FinRadar/issues/606)
 
    <br>
 
@@ -1063,7 +1063,7 @@ Transform from "algorithm recommendation captivity" to "actively getting the inf
 #### Mobile Setup:
 1. Open WeWork App → Enter target internal group chat
 2. Click "…" button at top right → Select "Message Push"
-3. Click "Add" → Name input "SHEFerRadar"
+3. Click "Add" → Name input "FinRadar"
 4. Copy Webhook address, click save, paste the copied content into GitHub Secret above
 
 #### PC Setup Process Similar
@@ -1113,7 +1113,7 @@ Transform from "algorithm recommendation captivity" to "actively getting the inf
 
 Two methods available, **Method 1** is simpler, **Method 2** is more complex (but stable push)
 
-Method 1 discovered and suggested by **ziventian**, thanks to them. Default is personal push, group push can be configured via [#97](https://github.com/sansan0/SHEFerRadar/issues/97)
+Method 1 discovered and suggested by **ziventian**, thanks to them. Default is personal push, group push can be configured via [#97](https://github.com/sansan0/FinRadar/issues/97)
 
 **Method 1:**
 
@@ -1140,7 +1140,7 @@ Method 1 discovered and suggested by **ziventian**, thanks to them. Default is p
 
 6. Click "Select Action" > "Send via Official Bot"
 
-7. Message title fill "SHEFerRadar Trending Monitor"
+7. Message title fill "FinRadar Trending Monitor"
 
 8. Most critical part, click + button, select "Webhook Trigger", then arrange as shown in image
 
@@ -1175,7 +1175,7 @@ Method 1 discovered and suggested by **ziventian**, thanks to them. Default is p
 
 7. Click "Select Action" > "Send Feishu Message", check "Group Message", then click the input box below, click "Groups I Manage" (if no group, you can create one in Feishu app)
 
-8. Message title fill "SHEFerRadar Trending Monitor"
+8. Message title fill "FinRadar Trending Monitor"
 
 9. Most critical part, click + button, select "Webhook Trigger", then arrange as shown in image
 
@@ -1314,14 +1314,14 @@ Method 1 discovered and suggested by **ziventian**, thanks to them. Default is p
 > **Auto-detect**: When using above emails, no need to manually configure `EMAIL_SMTP_SERVER` and `EMAIL_SMTP_PORT`, system auto-detects.
 >
 > **Feedback Notice**:
-> - If you successfully test with **other email providers**, please open an [Issue](https://github.com/sansan0/SHEFerRadar/issues) to let us know, we'll add to support list
-> - If above email configurations are incorrect or unusable, please also open an [Issue](https://github.com/sansan0/SHEFerRadar/issues) for feedback to help improve the project
+> - If you successfully test with **other email providers**, please open an [Issue](https://github.com/sansan0/FinRadar/issues) to let us know, we'll add to support list
+> - If above email configurations are incorrect or unusable, please also open an [Issue](https://github.com/sansan0/FinRadar/issues) for feedback to help improve the project
 >
 > **Special Thanks**:
-> - Thanks to [@DYZYD](https://github.com/DYZYD) for contributing 189 Mail (189.cn) configuration and completing self-send-receive testing ([#291](https://github.com/sansan0/SHEFerRadar/issues/291))
-> - Thanks to [@longzhenren](https://github.com/longzhenren) for contributing Aliyun Mail (aliyun.com) configuration and completing testing ([#344](https://github.com/sansan0/SHEFerRadar/issues/344))
-> - Thanks to [@ACANX](https://github.com/ACANX) for contributing Yandex Mail (yandex.com) configuration and completing testing ([#663](https://github.com/sansan0/SHEFerRadar/issues/663))
-> - Thanks to [@Sleepy-Tianhao](https://github.com/Sleepy-Tianhao) for contributing iCloud Mail (icloud.com) configuration and completing testing ([#728](https://github.com/sansan0/SHEFerRadar/issues/728))
+> - Thanks to [@DYZYD](https://github.com/DYZYD) for contributing 189 Mail (189.cn) configuration and completing self-send-receive testing ([#291](https://github.com/sansan0/FinRadar/issues/291))
+> - Thanks to [@longzhenren](https://github.com/longzhenren) for contributing Aliyun Mail (aliyun.com) configuration and completing testing ([#344](https://github.com/sansan0/FinRadar/issues/344))
+> - Thanks to [@ACANX](https://github.com/ACANX) for contributing Yandex Mail (yandex.com) configuration and completing testing ([#663](https://github.com/sansan0/FinRadar/issues/663))
+> - Thanks to [@Sleepy-Tianhao](https://github.com/Sleepy-Tianhao) for contributing iCloud Mail (icloud.com) configuration and completing testing ([#728](https://github.com/sansan0/FinRadar/issues/728))
 
 **Common Email Settings:**
 
@@ -1377,11 +1377,11 @@ If auto-detect fails, manually configure SMTP:
 
 2. **Subscribe to Topic** (choose a hard-to-guess name):
    ```
-   Suggested format: SHEFerRadar-{your initials}-{random numbers}
+   Suggested format: FinRadar-{your initials}-{random numbers}
 
    Cannot use Chinese
 
-   ✅ Good example: SHEFerRadar-zs-8492
+   ✅ Good example: FinRadar-zs-8492
    ❌ Bad example: news, alerts (too easy to guess)
    ```
 
@@ -1424,10 +1424,10 @@ docker run -d \
   serve --cache-file /var/cache/ntfy/cache.db
 ```
 
-**Configure SHEFerRadar**:
+**Configure FinRadar**:
 ```yaml
 NTFY_SERVER_URL: https://ntfy.yourdomain.com
-NTFY_TOPIC: SHEFerRadar-alerts  # Self-hosting can use simple name
+NTFY_TOPIC: FinRadar-alerts  # Self-hosting can use simple name
 NTFY_TOKEN: tk_your_token  # Optional: Enable access control
 ```
 
@@ -1450,7 +1450,7 @@ NTFY_TOKEN: tk_your_token  # Optional: Enable access control
 <details>
 <summary><strong>Q2: Is the Topic name really secure?</strong></summary>
 
-If you choose a random, sufficiently long name (like `SHEFerRadar-zs-8492-news`), brute force is nearly impossible:
+If you choose a random, sufficiently long name (like `FinRadar-zs-8492-news`), brute force is nearly impossible:
 - ntfy has strict rate limiting (1 request/second)
 - 64 character choices (A-Z, a-z, 0-9, _, -)
 - 10 random characters have 64^10 possibilities (would take years to crack)
@@ -1511,7 +1511,7 @@ docker run -d \
   finab/bark-server
 ```
 
-**Configure SHEFerRadar**:
+**Configure FinRadar**:
 ```yaml
 BARK_URL: http://your-server-ip:8080/your_device_key
 ```
@@ -1557,7 +1557,7 @@ Slack is a team collaboration tool, Incoming Webhooks can push messages to Slack
    - Click **"From scratch"**
 
 3. **Fill in App Information**:
-   - **App Name**: Enter app name (e.g., `SHEFerRadar` or `Hot News Monitor`)
+   - **App Name**: Enter app name (e.g., `FinRadar` or `Hot News Monitor`)
    - **Workspace**: Select your workspace from dropdown
    - Click **"Create App"** button
 
@@ -1597,7 +1597,7 @@ Slack is a team collaboration tool, Incoming Webhooks can push messages to Slack
    - Click **"Copy"** button on the right of URL
    - Or manually select and copy URL
 
-3. **Configure to SHEFerRadar**:
+3. **Configure to FinRadar**:
    - **GitHub Actions**: Add URL to GitHub Secrets as `SLACK_WEBHOOK_URL`
    - **Local Testing**: Fill URL in `config/config.yaml` `slack_webhook_url` field
    - **Docker Deployment**: Add URL to `docker/.env` file as `SLACK_WEBHOOK_URL` variable
@@ -1682,7 +1682,7 @@ Templates support two placeholders:
 {"content": "{content}"}
 
 # Custom format
-{"text": "{content}", "username": "SHEFerRadar"}
+{"text": "{content}", "username": "FinRadar"}
 ```
 
 ---
@@ -1711,16 +1711,16 @@ Templates support two placeholders:
    **How to find your Actions page**:
 
    - **Method 1**: Open your forked project homepage, click the **Actions** tab at the top
-   - **Method 2**: Direct access `https://github.com/YourUsername/SHEFerRadar/actions`
+   - **Method 2**: Direct access `https://github.com/YourUsername/FinRadar/actions`
 
    **Example comparison**:
-   - ❌ Author's project: `https://github.com/sansan0/SHEFerRadar/actions`
-   - ✅ Your project: `https://github.com/YourUsername/SHEFerRadar/actions`
+   - ❌ Author's project: `https://github.com/sansan0/FinRadar/actions`
+   - ✅ Your project: `https://github.com/YourUsername/FinRadar/actions`
 
    **Testing steps**:
    1. Enter your project's Actions page
    2. Find **"Hot News Crawler"** and click in
-      - If you don't see this text, refer to [#109](https://github.com/sansan0/SHEFerRadar/issues/109) to solve
+      - If you don't see this text, refer to [#109](https://github.com/sansan0/FinRadar/issues/109) to solve
    3. Click **"Run workflow"** button on the right to run
    4. Wait about 1 minute, messages will be pushed to your configured platform
 
@@ -1792,7 +1792,7 @@ Templates support two placeholders:
 
    | Name | Secret (Value) Description |
    |------|----------------------------|
-   | `S3_BUCKET_NAME` | Bucket name (e.g., `SHEFerRadar-data`) |
+   | `S3_BUCKET_NAME` | Bucket name (e.g., `FinRadar-data`) |
    | `S3_ACCESS_KEY_ID` | Access key ID |
    | `S3_SECRET_ACCESS_KEY` | Access key |
    | `S3_ENDPOINT_URL` | S3 API endpoint (e.g., R2: `https://<account-id>.r2.cloudflarestorage.com`) |
@@ -1810,7 +1810,7 @@ Templates support two placeholders:
    **How to Get Credentials (Using Cloudflare R2 as Example):**
 
    1. Visit [Cloudflare Dashboard](https://dash.cloudflare.com/) and log in
-   2. Select `R2` in left menu → Click `Create Bucket` → Enter name (e.g., `SHEFerRadar-data`)
+   2. Select `R2` in left menu → Click `Create Bucket` → Enter name (e.g., `FinRadar-data`)
    3. Click `Manage R2 API Tokens` at top right → `Create API Token`
    4. Select `Object Read & Write` permission → After creation, it will display `Access Key ID` and `Secret Access Key`
    5. Endpoint URL can be found in bucket details page (format: `https://<account-id>.r2.cloudflarestorage.com`)
@@ -1834,7 +1834,7 @@ Templates support two placeholders:
 
 ### 7️⃣ Step 7: 🎉 Deployment Success!
 
-   Congratulations! Now you can start enjoying the efficient information flow brought by SHEFerRadar.
+   Congratulations! Now you can start enjoying the efficient information flow brought by FinRadar.
 
    💬 Many users are sharing their experiences on the official account, we look forward to your insights~
 
@@ -1848,7 +1848,7 @@ Templates support two placeholders:
 
 ### 8️⃣ Step 8: Advanced: Choose Your AI Assistant
 
-   SHEFerRadar provides two ways to use AI to meet different needs:
+   FinRadar provides two ways to use AI to meet different needs:
 
    | Feature | ✨ AI Analysis Push (Step 6) | 🧠 AI Smart Analysis |
    | :--- | :--- | :--- |
@@ -1892,7 +1892,7 @@ platforms:
     # Add more platforms...
 ```
 
-> 💡 **Shortcut**: If you don't know how to read source code, you can copy from others' organized [Platform Configuration Summary](https://github.com/sansan0/SHEFerRadar/issues/95)
+> 💡 **Shortcut**: If you don't know how to read source code, you can copy from others' organized [Platform Configuration Summary](https://github.com/sansan0/FinRadar/issues/95)
 
 > ⚠️ **Note**: More platforms is not always better, suggest choosing 10-15 core platforms. Too many platforms will cause information overload and actually reduce user experience.
 
@@ -2464,15 +2464,15 @@ Updated: 2025-01-15 12:30:15
 
 **Image Description:**
 
-SHEFerRadar provides two independent Docker images, deploy according to your needs:
+FinRadar provides two independent Docker images, deploy according to your needs:
 
 | Image Name | Purpose | Description |
 |---------|------|------|
-| `wantcat/SHEFerRadar` | News Push Service | Scheduled news crawling, push notifications (Required) |
-| `wantcat/SHEFerRadar-mcp` | AI Analysis Service | MCP protocol support, AI dialogue analysis (Optional) |
+| `wantcat/FinRadar` | News Push Service | Scheduled news crawling, push notifications (Required) |
+| `wantcat/FinRadar-mcp` | AI Analysis Service | MCP protocol support, AI dialogue analysis (Optional) |
 
 > 💡 **Recommendations**:
-> - Only need push functionality: Deploy `wantcat/SHEFerRadar` image only
+> - Only need push functionality: Deploy `wantcat/FinRadar` image only
 > - Need AI analysis: Deploy both images
 
 ---
@@ -2484,24 +2484,24 @@ SHEFerRadar provides two independent Docker images, deploy according to your nee
    **Method 1-A: Using git clone (Recommended, Simplest)**
    ```bash
    # Clone project to local
-   git clone https://github.com/sansan0/SHEFerRadar.git
-   cd SHEFerRadar
+   git clone https://github.com/sansan0/FinRadar.git
+   cd FinRadar
    ```
 
    **Method 1-B: Using wget to download config files**
    ```bash
    # Create directory structure
-   mkdir -p SHEFerRadar/{config,docker}
-   cd SHEFerRadar
+   mkdir -p FinRadar/{config,docker}
+   cd FinRadar
 
    # Download config file templates
-   wget https://raw.githubusercontent.com/sansan0/SHEFerRadar/master/config/config.yaml -P config/
-   wget https://raw.githubusercontent.com/sansan0/SHEFerRadar/master/config/frequency_words.txt -P config/
-   wget https://raw.githubusercontent.com/sansan0/SHEFerRadar/master/config/ai_analysis_prompt.txt -P config/
+   wget https://raw.githubusercontent.com/sansan0/FinRadar/master/config/config.yaml -P config/
+   wget https://raw.githubusercontent.com/sansan0/FinRadar/master/config/frequency_words.txt -P config/
+   wget https://raw.githubusercontent.com/sansan0/FinRadar/master/config/ai_analysis_prompt.txt -P config/
 
    # Download docker compose config
-   wget https://raw.githubusercontent.com/sansan0/SHEFerRadar/master/docker/.env -P docker/
-   wget https://raw.githubusercontent.com/sansan0/SHEFerRadar/master/docker/docker-compose.yml -P docker/
+   wget https://raw.githubusercontent.com/sansan0/FinRadar/master/docker/.env -P docker/
+   wget https://raw.githubusercontent.com/sansan0/FinRadar/master/docker/docker-compose.yml -P docker/
    ```
 
    > 💡 **Note**: Key directory structure required for Docker deployment:
@@ -2551,43 +2551,43 @@ current directory/
    # Pull latest images
    docker compose pull
 
-   # Start all services (SHEFerRadar + SHEFerRadar-mcp)
+   # Start all services (FinRadar + FinRadar-mcp)
    docker compose up -d
    ```
 
    **Option B: Start News Push Service Only**
    ```bash
-   # Start SHEFerRadar only (scheduled crawling and push)
-   docker compose pull SHEFerRadar
-   docker compose up -d SHEFerRadar
+   # Start FinRadar only (scheduled crawling and push)
+   docker compose pull FinRadar
+   docker compose up -d FinRadar
    ```
 
    **Option C: Start MCP AI Analysis Service Only**
    ```bash
-   # Start SHEFerRadar-mcp only (AI analysis interface)
-   docker compose pull SHEFerRadar-mcp
-   docker compose up -d SHEFerRadar-mcp
+   # Start FinRadar-mcp only (AI analysis interface)
+   docker compose pull FinRadar-mcp
+   docker compose up -d FinRadar-mcp
    ```
 
    > 💡 **Tips**:
-   > - Most users only need to start `SHEFerRadar` for news push functionality
-   > - Only need to start `SHEFerRadar-mcp` when using ChatGPT/Gemini for AI dialogue analysis
+   > - Most users only need to start `FinRadar` for news push functionality
+   > - Only need to start `FinRadar-mcp` when using ChatGPT/Gemini for AI dialogue analysis
    > - Both services are independent and can be flexibly combined
 
 4. **Check Running Status**:
    ```bash
    # View news push service logs
-   docker logs -f SHEFerRadar
+   docker logs -f FinRadar
 
    # View MCP AI analysis service logs
-   docker logs -f SHEFerRadar-mcp
+   docker logs -f FinRadar-mcp
 
    # View all container status
-   docker ps | grep SHEFerRadar
+   docker ps | grep FinRadar
 
    # Stop specific service
-   docker compose stop SHEFerRadar      # Stop push service
-   docker compose stop SHEFerRadar-mcp  # Stop MCP service
+   docker compose stop FinRadar      # Stop push service
+   docker compose stop FinRadar-mcp  # Stop MCP service
    ```
 
 #### Method 2: Local Build (Developer Option)
@@ -2596,8 +2596,8 @@ If you need custom code modifications or build your own image:
 
 ```bash
 # Clone project
-git clone https://github.com/sansan0/SHEFerRadar.git
-cd SHEFerRadar
+git clone https://github.com/sansan0/FinRadar.git
+cd FinRadar
 
 # Modify config files
 vim config/config.yaml
@@ -2616,12 +2616,12 @@ docker compose build
 docker compose up -d
 
 # Option B: Build and start news push service only
-docker compose build SHEFerRadar
-docker compose up -d SHEFerRadar
+docker compose build FinRadar
+docker compose up -d FinRadar
 
 # Option C: Build and start MCP AI analysis service only
-docker compose build SHEFerRadar-mcp
-docker compose up -d SHEFerRadar-mcp
+docker compose build FinRadar-mcp
+docker compose up -d FinRadar-mcp
 ```
 
 > 💡 **Architecture Parameter Notes**:
@@ -2636,8 +2636,8 @@ docker compose up -d SHEFerRadar-mcp
 
 ```bash
 # Method 1: Manual update (Crawler + MCP images)
-docker pull wantcat/SHEFerRadar:latest
-docker pull wantcat/SHEFerRadar-mcp:latest
+docker pull wantcat/FinRadar:latest
+docker pull wantcat/FinRadar-mcp:latest
 docker compose down
 docker compose up -d
 
@@ -2650,43 +2650,43 @@ docker compose up -d
 
 | Image Name | Purpose | Description |
 |---------|------|---------|
-| `wantcat/SHEFerRadar` | News Push Service | Scheduled news crawling, push notifications |
-| `wantcat/SHEFerRadar-mcp` | MCP Service | AI analysis features (optional) |
+| `wantcat/FinRadar` | News Push Service | Scheduled news crawling, push notifications |
+| `wantcat/FinRadar-mcp` | MCP Service | AI analysis features (optional) |
 
 #### Service Management Commands
 
 ```bash
 # View running status
-docker exec -it SHEFerRadar python manage.py status
+docker exec -it FinRadar python manage.py status
 
 # Manually execute crawler once
-docker exec -it SHEFerRadar python manage.py run
+docker exec -it FinRadar python manage.py run
 
 # View real-time logs
-docker exec -it SHEFerRadar python manage.py logs
+docker exec -it FinRadar python manage.py logs
 
 # Display current config
-docker exec -it SHEFerRadar python manage.py config
+docker exec -it FinRadar python manage.py config
 
 # Display output files
-docker exec -it SHEFerRadar python manage.py files
+docker exec -it FinRadar python manage.py files
 
 # Web server management (for browser access to generated reports)
-docker exec -it SHEFerRadar python manage.py start_webserver   # Start web server
-docker exec -it SHEFerRadar python manage.py stop_webserver    # Stop web server
-docker exec -it SHEFerRadar python manage.py webserver_status  # Check web server status
+docker exec -it FinRadar python manage.py start_webserver   # Start web server
+docker exec -it FinRadar python manage.py stop_webserver    # Stop web server
+docker exec -it FinRadar python manage.py webserver_status  # Check web server status
 
 # View help info
-docker exec -it SHEFerRadar python manage.py help
+docker exec -it FinRadar python manage.py help
 
 # Restart container
-docker restart SHEFerRadar
+docker restart FinRadar
 
 # Stop container
-docker stop SHEFerRadar
+docker stop FinRadar
 
 # Remove container (keep data)
-docker rm SHEFerRadar
+docker rm FinRadar
 ```
 
 > 💡 **Web Server Notes**:
@@ -2702,7 +2702,7 @@ Generated reports and data are saved in `./output` directory by default. Data pe
 
 **📊 Web Report Access Paths**:
 
-SHEFerRadar generates daily summary HTML reports to two locations simultaneously:
+FinRadar generates daily summary HTML reports to two locations simultaneously:
 
 | File Location | Access Method | Use Case |
 |--------------|---------------|----------|
@@ -2714,7 +2714,7 @@ SHEFerRadar generates daily summary HTML reports to two locations simultaneously
 ```bash
 # Method 1: Via Web Server (recommended, Docker environment)
 # 1. Start web server
-docker exec -it SHEFerRadar python manage.py start_webserver
+docker exec -it FinRadar python manage.py start_webserver
 # 2. Access in browser
 http://localhost:8080                           # Access latest report (default index.html)
 http://localhost:8080/html/2025-xx-xx/          # Access reports for specific date
@@ -2738,16 +2738,16 @@ open ./output/html/2025-xx-xx/当日汇总.html
 
 ```bash
 # Check container status
-docker inspect SHEFerRadar
+docker inspect FinRadar
 
 # View container logs
-docker logs --tail 100 SHEFerRadar
+docker logs --tail 100 FinRadar
 
 # Enter container for debugging
-docker exec -it SHEFerRadar /bin/bash
+docker exec -it FinRadar /bin/bash
 
 # Verify config files
-docker exec -it SHEFerRadar ls -la /app/config/
+docker exec -it FinRadar ls -la /app/config/
 ```
 
 #### MCP Service Deployment (AI Analysis Feature)
@@ -2758,12 +2758,12 @@ If you need to use AI analysis features, you can deploy the standalone MCP servi
 
 ```mermaid
 flowchart TB
-    subgraph SHEFerRadar["SHEFerRadar"]
+    subgraph FinRadar["FinRadar"]
         A1[Scheduled News Fetching]
         A2[Push Notifications]
     end
     
-    subgraph SHEFerRadar-mcp["SHEFerRadar-mcp"]
+    subgraph FinRadar-mcp["FinRadar-mcp"]
         B1[127.0.0.1:3333]
         B2[AI Analysis API]
     end
@@ -2773,8 +2773,8 @@ flowchart TB
         C2["output/ (ro)"]
     end
     
-    SHEFerRadar --> shared
-    SHEFerRadar-mcp --> shared
+    FinRadar --> shared
+    FinRadar-mcp --> shared
 ```
 
 **Quick Start**:
@@ -2783,43 +2783,43 @@ Use docker compose to start both news push and MCP services:
 
 ```bash
 # Method 1: Clone project (Recommended)
-git clone https://github.com/sansan0/SHEFerRadar.git
-cd SHEFerRadar/docker
+git clone https://github.com/sansan0/FinRadar.git
+cd FinRadar/docker
 docker compose up -d
 
 # Method 2: Download docker-compose.yml separately
-mkdir SHEFerRadar && cd SHEFerRadar
-wget https://raw.githubusercontent.com/sansan0/SHEFerRadar/master/docker/docker-compose.yml
-wget https://raw.githubusercontent.com/sansan0/SHEFerRadar/master/docker/.env
+mkdir FinRadar && cd FinRadar
+wget https://raw.githubusercontent.com/sansan0/FinRadar/master/docker/docker-compose.yml
+wget https://raw.githubusercontent.com/sansan0/FinRadar/master/docker/.env
 mkdir -p config output
 # Download config files
-wget https://raw.githubusercontent.com/sansan0/SHEFerRadar/master/config/config.yaml -P config/
-wget https://raw.githubusercontent.com/sansan0/SHEFerRadar/master/config/frequency_words.txt -P config/
+wget https://raw.githubusercontent.com/sansan0/FinRadar/master/config/config.yaml -P config/
+wget https://raw.githubusercontent.com/sansan0/FinRadar/master/config/frequency_words.txt -P config/
 # Modify volume paths in docker-compose.yml: ../config -> ./config, ../output -> ./output
 docker compose up -d
 
 # Check running status
-docker ps | grep SHEFerRadar
+docker ps | grep FinRadar
 ```
 
 **Start MCP Service Separately**:
 
 ```bash
 # Linux/Mac
-docker run -d --name SHEFerRadar-mcp \
+docker run -d --name FinRadar-mcp \
   -p 127.0.0.1:3333:3333 \
   -v $(pwd)/config:/app/config:ro \
   -v $(pwd)/output:/app/output:ro \
   -e TZ=Asia/Shanghai \
-  wantcat/SHEFerRadar-mcp:latest
+  wantcat/FinRadar-mcp:latest
 
 # Windows PowerShell
-docker run -d --name SHEFerRadar-mcp `
+docker run -d --name FinRadar-mcp `
   -p 127.0.0.1:3333:3333 `
   -v ${PWD}/config:/app/config:ro `
   -v ${PWD}/output:/app/output:ro `
   -e TZ=Asia/Shanghai `
-  wantcat/SHEFerRadar-mcp:latest
+  wantcat/FinRadar-mcp:latest
 ```
 
 > ⚠️ **Note**: Ensure `config/` and `output/` folders exist in current directory with config files and news data before running.
@@ -2831,7 +2831,7 @@ docker run -d --name SHEFerRadar-mcp `
 curl http://127.0.0.1:3333/mcp
 
 # View MCP service logs
-docker logs -f SHEFerRadar-mcp
+docker logs -f FinRadar-mcp
 ```
 
 **Configure in AI Clients**:
@@ -2847,7 +2847,7 @@ After MCP service starts, configure based on your client:
 ```json
 {
   "mcpServers": {
-    "SHEFerRadar": {
+    "FinRadar": {
       "url": "http://127.0.0.1:3333/mcp",
       "type": "streamableHttp"
     }
@@ -2988,7 +2988,7 @@ Zhihu Trending (10 items):
   ...
 
 Hacker News (5 items):
-  1. [Hacker News] Launch HN: SHEFerRadar...
+  1. [Hacker News] Launch HN: FinRadar...
   ...
 ```
 
@@ -3306,7 +3306,7 @@ Think the AI sounds too official? You can modify its prompt to change its style 
 
 ## ✨ AI Analysis
 
-SHEFerRadar v3.0.0 added **MCP (Model Context Protocol)** based AI analysis feature, allowing natural language conversations with news data for deep analysis.
+FinRadar v3.0.0 added **MCP (Model Context Protocol)** based AI analysis feature, allowing natural language conversations with news data for deep analysis.
 
 
 ### ⚠️ Important Notice Before Use
@@ -3358,13 +3358,13 @@ Cherry Studio provides GUI config interface, 5-minute quick deployment, complex 
 
 ## 🔌 MCP Clients
 
-SHEFerRadar MCP service supports standard Model Context Protocol (MCP), can connect to various AI clients supporting MCP for smart analysis.
+FinRadar MCP service supports standard Model Context Protocol (MCP), can connect to various AI clients supporting MCP for smart analysis.
 
 ### Supported Clients
 
 **Note**:
-- Replace `/path/to/SHEFerRadar` with your actual project path
-- Windows paths use double backslashes: `C:\\Users\\YourName\\SHEFerRadar`
+- Replace `/path/to/FinRadar` with your actual project path
+- Windows paths use double backslashes: `C:\\Users\\YourName\\FinRadar`
 - Remember to restart after saving
 
 <details>
@@ -3388,9 +3388,9 @@ SHEFerRadar MCP service supports standard Model Context Protocol (MCP), can conn
    ```json
    {
      "mcpServers": {
-       "SHEFerRadar": {
+       "FinRadar": {
          "url": "http://localhost:3333/mcp",
-         "description": "SHEFerRadar News Trending Aggregation Analysis"
+         "description": "FinRadar News Trending Aggregation Analysis"
        }
      }
    }
@@ -3410,11 +3410,11 @@ Create `.cursor/mcp.json`:
 ```json
 {
   "mcpServers": {
-    "SHEFerRadar": {
+    "FinRadar": {
       "command": "uv",
       "args": [
         "--directory",
-        "/path/to/SHEFerRadar",
+        "/path/to/FinRadar",
         "run",
         "python",
         "-m",
@@ -3437,7 +3437,7 @@ Add in Cline's MCP settings:
 **HTTP Mode**:
 ```json
 {
-  "SHEFerRadar": {
+  "FinRadar": {
     "url": "http://localhost:3333/mcp",
     "type": "streamableHttp",
     "autoApprove": [],
@@ -3449,11 +3449,11 @@ Add in Cline's MCP settings:
 **STDIO Mode** (Recommended):
 ```json
 {
-  "SHEFerRadar": {
+  "FinRadar": {
     "command": "uv",
     "args": [
       "--directory",
-      "/path/to/SHEFerRadar",
+      "/path/to/FinRadar",
       "run",
       "python",
       "-m",
@@ -3478,7 +3478,7 @@ Edit `~/.continue/config.json`:
           "command": "uv",
           "args": [
             "--directory",
-            "/path/to/SHEFerRadar",
+            "/path/to/FinRadar",
             "run",
             "python",
             "-m",
@@ -3508,7 +3508,7 @@ MCP Inspector is the official debug tool for testing MCP connections:
 
 #### Usage Steps
 
-1. **Start SHEFerRadar HTTP Service**:
+1. **Start FinRadar HTTP Service**:
    ```bash
    # Windows
    start-http.bat
@@ -3538,7 +3538,7 @@ MCP Inspector is the official debug tool for testing MCP connections:
 <summary><b>👉 Click to expand: Other MCP-Compatible Clients</b></summary>
 <br>
 
-Any client supporting Model Context Protocol can connect to SHEFerRadar:
+Any client supporting Model Context Protocol can connect to FinRadar:
 
 #### HTTP Mode
 
@@ -3547,7 +3547,7 @@ Any client supporting Model Context Protocol can connect to SHEFerRadar:
 **Basic Config Template**:
 ```json
 {
-  "name": "SHEFerRadar",
+  "name": "FinRadar",
   "url": "http://localhost:3333/mcp",
   "type": "http",
   "description": "News Trending Aggregation Analysis"
@@ -3559,11 +3559,11 @@ Any client supporting Model Context Protocol can connect to SHEFerRadar:
 **Basic Config Template**:
 ```json
 {
-  "name": "SHEFerRadar",
+  "name": "FinRadar",
   "command": "uv",
   "args": [
     "--directory",
-    "/path/to/SHEFerRadar",
+    "/path/to/FinRadar",
     "run",
     "python",
     "-m",
@@ -3574,7 +3574,7 @@ Any client supporting Model Context Protocol can connect to SHEFerRadar:
 ```
 
 **Notes**:
-- Replace `/path/to/SHEFerRadar` with actual project path
+- Replace `/path/to/FinRadar` with actual project path
 - Windows paths use backslash escape: `C:\\Users\\...`
 - Ensure project dependencies installed (ran setup script)
 
@@ -3689,7 +3689,7 @@ Any client supporting Model Context Protocol can connect to SHEFerRadar:
 - https://github.com/sansan0/bilibili-comment-analyzer
 
 
-[![Star History Chart](https://api.star-history.com/svg?repos=sansan0/SHEFerRadar&type=Date)](https://www.star-history.com/#sansan0/SHEFerRadar&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=sansan0/FinRadar&type=Date)](https://www.star-history.com/#sansan0/FinRadar&Date)
 
 <br>
 
@@ -3701,6 +3701,6 @@ GPL-3.0 License
 
 <div align="center">
 
-[🔝 Back to Top](#SHEFerRadar)
+[🔝 Back to Top](#FinRadar)
 
 </div>
