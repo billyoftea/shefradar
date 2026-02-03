@@ -1,0 +1,49 @@
+# FinRadar 市场追踪 Docker 镜像
+# 每日信息汇总服务
+
+FROM python:3.10-slim
+
+WORKDIR /app
+
+# 安装系统依赖
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+    curl \
+    ca-certificates \
+    && rm -rf /var/lib/apt/lists/*
+
+# 安装 supercronic (定时任务) - 使用 amd64 版本
+ENV SUPERCRONIC_VERSION=v0.2.39 \
+    SUPERCRONIC_URL=https://github.com/aptible/supercronic/releases/download/v0.2.39/supercronic-linux-amd64 \
+    SUPERCRONIC_SHA1SUM=c98bbf82c5f648aaac8708c182cc83046fe48423
+
+RUN curl -fsSL -o /usr/local/bin/supercronic "$SUPERCRONIC_URL" && \
+    echo "${SUPERCRONIC_SHA1SUM}  /usr/local/bin/supercronic" | sha1sum -c - && \
+    chmod +x /usr/local/bin/supercronic
+
+# 复制并安装 Python 依赖
+COPY requirements.txt .
+COPY fin_module/requirements.txt ./fin_module_requirements.txt
+
+RUN pip install --no-cache-dir -r requirements.txt && \
+    pip install --no-cache-dir -r fin_module_requirements.txt
+
+# 复制应用代码
+COPY fin_module/ ./fin_module/
+COPY config/ ./config/
+
+# 复制入口脚本
+COPY docker/entrypoint-market.sh /entrypoint.sh
+RUN sed -i 's/\r$//' /entrypoint.sh && \
+    chmod +x /entrypoint.sh && \
+    mkdir -p /app/output/market
+
+# 环境变量
+ENV PYTHONUNBUFFERED=1 \
+    TZ=Asia/Shanghai \
+    OUTPUT_DIR=/app/output/market
+
+# 默认端口 (如果启用 Web 服务)
+EXPOSE 8080
+
+ENTRYPOINT ["/entrypoint.sh"]

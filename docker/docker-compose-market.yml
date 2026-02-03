@@ -1,0 +1,95 @@
+# FinRadar 市场追踪服务 Docker Compose 配置
+# 用于每日信息汇总功能
+
+services:
+  # ==================== 市场追踪服务 ====================
+  finradar-market:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.market
+    image: finradar-market:latest
+    container_name: finradar-market
+    restart: unless-stopped
+
+    volumes:
+      - ../output:/app/output
+      - ../config:/app/config:ro
+
+    environment:
+      # 时区设置
+      - TZ=Asia/Shanghai
+      
+      # 运行模式: once (单次) / cron (定时)
+      - RUN_MODE=${RUN_MODE:-cron}
+      
+      # 定时调度 (默认每天早上 8:30)
+      # 格式: 分 时 日 月 星期
+      - CRON_SCHEDULE=${CRON_SCHEDULE:-30 8 * * *}
+      
+      # 启动时是否立即执行一次
+      - IMMEDIATE_RUN=${IMMEDIATE_RUN:-true}
+      
+      # 输出目录
+      - OUTPUT_DIR=/app/output/market
+
+      # ==================== 数据源开关 ====================
+      # A股市场 (基于 AkShare)
+      - ENABLE_STOCK_CN=${ENABLE_STOCK_CN:-true}
+      
+      # 贵金属 (基于 yfinance)
+      - ENABLE_PRECIOUS_METAL=${ENABLE_PRECIOUS_METAL:-true}
+      
+      # 加密货币 (基于 CoinGecko)
+      - ENABLE_CRYPTO=${ENABLE_CRYPTO:-true}
+      - CRYPTO_COINS=${CRYPTO_COINS:-bitcoin,ethereum,solana,bnb,xrp}
+      - CRYPTO_VS_CURRENCY=${CRYPTO_VS_CURRENCY:-usd}
+      
+      # 期货市场
+      - ENABLE_FUTURES=${ENABLE_FUTURES:-true}
+      
+      # GitHub 趋势
+      - ENABLE_GITHUB=${ENABLE_GITHUB:-true}
+      - GITHUB_TOKEN=${GITHUB_TOKEN:-}
+      
+      # ==================== 社交媒体 ====================
+      # Twitter/X (通过 Nitter RSS，无需 API Key)
+      - ENABLE_TWITTER=${ENABLE_TWITTER:-true}
+      - NITTER_INSTANCE=${NITTER_INSTANCE:-}
+      - TWITTER_ACCOUNTS=${TWITTER_ACCOUNTS:-VitalikButerin,elonmusk,OpenAI,sama}
+      
+      # 微信公众号 (需要部署 wechat-article-exporter 服务)
+      - ENABLE_WECHAT=${ENABLE_WECHAT:-false}
+      - WECHAT_SERVICE_URL=${WECHAT_SERVICE_URL:-http://localhost:3001}
+      - WECHAT_TIMEOUT=${WECHAT_TIMEOUT:-30}
+
+      # ==================== 通知配置 (可选) ====================
+      # 飞书 Webhook
+      - FEISHU_WEBHOOK_URL=${FEISHU_WEBHOOK_URL:-}
+      
+      # Telegram
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN:-}
+      - TELEGRAM_CHAT_ID=${TELEGRAM_CHAT_ID:-}
+      
+      # 钉钉 Webhook
+      - DINGTALK_WEBHOOK_URL=${DINGTALK_WEBHOOK_URL:-}
+      
+      # 企业微信 Webhook
+      - WEWORK_WEBHOOK_URL=${WEWORK_WEBHOOK_URL:-}
+      
+      # 邮件
+      - EMAIL_FROM=${EMAIL_FROM:-}
+      - EMAIL_PASSWORD=${EMAIL_PASSWORD:-}
+      - EMAIL_TO=${EMAIL_TO:-}
+      - EMAIL_SMTP_SERVER=${EMAIL_SMTP_SERVER:-}
+      - EMAIL_SMTP_PORT=${EMAIL_SMTP_PORT:-}
+
+    # 日志配置
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+networks:
+  default:
+    name: finradar-network
