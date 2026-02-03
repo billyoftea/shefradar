@@ -42,7 +42,9 @@ class WechatConfig:
     auth_key: str = ""  # API 认证密钥
     accounts: Dict[str, List[str]] = field(default_factory=dict)
     max_articles_per_account: int = 20
-    max_age_days: int = 3
+    max_age_hours: int = 24  # 最大文章年龄（小时），默认24小时，0=不限制
+    fetch_content: bool = False  # 是否抓取文章全文内容
+    content_delay: float = 0.5  # 抓取全文之间的延迟（秒）
     
     def get_all_accounts(self) -> List[str]:
         """获取所有公众号列表"""
@@ -127,7 +129,9 @@ class SocialSourceConfig:
                 auth_key=wechat_config.get("auth_key", ""),
                 accounts=wechat_config.get("accounts", {}),
                 max_articles_per_account=wechat_config.get("max_articles_per_account", 20),
-                max_age_days=wechat_config.get("max_age_days", 3)
+                max_age_hours=wechat_config.get("max_age_hours", 24),
+                fetch_content=wechat_config.get("fetch_content", False),
+                content_delay=wechat_config.get("content_delay", 0.5)
             )
         return self._wechat
     
@@ -194,7 +198,7 @@ def print_config_summary():
     print(f"   服务地址: {config.wechat.service_url}")
     print(f"   超时时间: {config.wechat.timeout}s")
     print(f"   每账号文章数: {config.wechat.max_articles_per_account}")
-    print(f"   最大文章天数: {config.wechat.max_age_days} 天")
+    print(f"   最大文章时间: {config.wechat.max_age_hours} 小时")
     
     print("\n   📌 关注公众号:")
     for category, accounts in config.wechat.accounts.items():

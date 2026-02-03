@@ -162,6 +162,10 @@ wechat:
   
   # API 认证密钥（登录后从 data/kv/cookie 目录获取文件名）
   auth_key: "03a7d7d5c19449879ccebbd5f1a4947f"
+  
+  # 文章全文抓取配置
+  fetch_content: true                   # 是否抓取文章全文内容（会增加抓取时间）
+  content_delay: 0.5                    # 抓取每篇文章全文之间的延迟（秒），避免被封
 
   # 关注公众号列表
   # 分类: finance（财经）, crypto（加密货币）, tech（科技）, quant（量化）
@@ -240,7 +244,7 @@ wechat:
 
   # 获取设置
   max_articles_per_account: 20          # 每个公众号获取的文章数量
-  max_age_days: 3                       # 最大文章年龄（天），0=不限制
+  max_age_hours: 24                     # 最大文章年龄（小时），默认24小时，0=不限制
 
 
 # ===============================================================

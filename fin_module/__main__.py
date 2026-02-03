@@ -196,7 +196,13 @@ class MarketTracker:
                 await fetcher.close()
                 return None
             
-            logger.info(f"📱 正在抓取微信公众号文章 (服务: {wechat_conf.service_url})...")
+            fetch_content = wechat_conf.fetch_content
+            max_age_hours = wechat_conf.max_age_hours
+            logger.info(f"📱 正在抓取微信公众号文章 (服务: {wechat_conf.service_url}, 时间范围: {max_age_hours}小时, 抓取全文: {'是' if fetch_content else '否'})...")
+            
+            # 计算时间截止点
+            from datetime import timedelta
+            cutoff_time = datetime.now() - timedelta(hours=max_age_hours) if max_age_hours > 0 else None
             
             # 获取所有配置的公众号
             all_accounts = wechat_conf.get_all_accounts()
@@ -208,18 +214,38 @@ class MarketTracker:
                     # 先搜索公众号获取 fakeid
                     accounts = await fetcher.search_accounts(account_name, limit=1)
                     if accounts:
-                        articles = await fetcher.get_articles(
-                            accounts[0].fakeid, 
-                            count=wechat_conf.max_articles_per_account
-                        )
-                        # 添加公众号名称
-                        for art in articles:
-                            art.account_name = account_name
+                        if fetch_content:
+                            # 使用新方法抓取文章及全文
+                            logger.info(f"   正在抓取 {account_name} 的文章及全文...")
+                            articles = await fetcher.get_articles_with_content(
+                                accounts[0].fakeid, 
+                                count=wechat_conf.max_articles_per_account,
+                                account_name=account_name,
+                                fetch_content=True,
+                                content_delay=wechat_conf.content_delay
+                            )
+                        else:
+                            # 仅抓取文章列表
+                            articles = await fetcher.get_articles(
+                                accounts[0].fakeid, 
+                                count=wechat_conf.max_articles_per_account
+                            )
+                            # 添加公众号名称
+                            for art in articles:
+                                art.account_name = account_name
+                        
+                        # 时间过滤：只保留指定时间范围内的文章
+                        if cutoff_time:
+                            articles = [a for a in articles if a.publish_time and a.publish_time >= cutoff_time]
+                        
                         all_articles.extend(articles)
                 except Exception as e:
                     logger.warning(f"获取 {account_name} 文章失败: {e}")
             
-            logger.info(f"✅ 微信公众号文章抓取完成，共 {len(all_articles)} 篇")
+            # 按发布时间排序（最新的在前）
+            all_articles.sort(key=lambda x: x.publish_time if x.publish_time else datetime.min, reverse=True)
+            
+            logger.info(f"✅ 微信公众号文章抓取完成，共 {len(all_articles)} 篇 (过去{max_age_hours}小时内)")
             await fetcher.close()
             
             return {
@@ -230,8 +256,9 @@ class MarketTracker:
                         "account_name": a.account_name,
                         "publish_time": a.publish_time.isoformat() if a.publish_time else "",
                         "url": a.url,
-                        "digest": a.digest
-                    } for a in all_articles[:20]  # 最多返回20篇
+                        "digest": a.digest,
+                        "content": a.content if hasattr(a, 'content') and a.content else ""
+                    } for a in all_articles[:50]  # 最多返回50篇（时间过滤后数量减少，可以多返回一些）
                 ],
                 "timestamp": datetime.now().isoformat()
             }

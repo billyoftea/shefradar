@@ -3,13 +3,17 @@
 
 通过 wechat-article-exporter 的 API 接口获取公众号文章数据
 项目地址: https://github.com/wechat-article/wechat-article-exporter
+
+支持抓取文章全文内容
 """
 
 import asyncio
 import aiohttp
+import re
 from typing import Optional, List, Dict, Any
 from datetime import datetime, timedelta
 from dataclasses import dataclass, field
+from bs4 import BeautifulSoup
 
 
 @dataclass
@@ -91,7 +95,7 @@ class WechatArticleFetcher:
             self._global_timeout = global_config.wechat.timeout
             self._global_accounts = global_config.wechat.accounts
             self._global_max_articles = global_config.wechat.max_articles_per_account
-            self._global_max_age_days = global_config.wechat.max_age_days
+            self._global_max_age_hours = global_config.wechat.max_age_hours
             self._global_auth_key = getattr(global_config.wechat, 'auth_key', None)
         except Exception as e:
             print(f"⚠️ 无法加载全局配置: {e}")
@@ -100,7 +104,7 @@ class WechatArticleFetcher:
             self._global_timeout = 30
             self._global_accounts = {}
             self._global_max_articles = 20
-            self._global_max_age_days = 3
+            self._global_max_age_hours = 24
             self._global_auth_key = None
     
     def get_configured_accounts(self) -> Dict[str, List[str]]:
@@ -270,6 +274,105 @@ class WechatArticleFetcher:
         except Exception as e:
             print(f"获取文章列表异常: {e}")
             return []
+    
+    async def get_article_content(self, article_url: str) -> str:
+        """
+        获取文章全文内容
+        
+        直接抓取微信公众号文章页面，提取正文内容
+        
+        Args:
+            article_url: 文章链接 (https://mp.weixin.qq.com/s/...)
+            
+        Returns:
+            str: 文章正文内容（纯文本）
+        """
+        session = await self._get_session()
+        
+        try:
+            headers = {
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+                "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+            }
+            
+            async with session.get(article_url, headers=headers, timeout=aiohttp.ClientTimeout(total=15)) as resp:
+                if resp.status != 200:
+                    print(f"获取文章内容失败: HTTP {resp.status}")
+                    return ""
+                    
+                html = await resp.text()
+                
+                # 使用 BeautifulSoup 解析 HTML
+                soup = BeautifulSoup(html, 'html.parser')
+                
+                # 微信文章正文在 id="js_content" 的 div 中
+                content_div = soup.find('div', id='js_content')
+                
+                if not content_div:
+                    # 备选：尝试 class="rich_media_content"
+                    content_div = soup.find('div', class_='rich_media_content')
+                
+                if content_div:
+                    # 移除脚本和样式标签
+                    for script in content_div(['script', 'style']):
+                        script.decompose()
+                    
+                    # 获取纯文本内容
+                    text = content_div.get_text(separator='\n', strip=True)
+                    
+                    # 清理多余的空行
+                    lines = [line.strip() for line in text.split('\n') if line.strip()]
+                    return '\n'.join(lines)
+                
+                return ""
+                
+        except asyncio.TimeoutError:
+            print(f"获取文章内容超时: {article_url}")
+            return ""
+        except Exception as e:
+            print(f"获取文章内容异常: {e}")
+            return ""
+    
+    async def get_articles_with_content(self,
+                                        fakeid: str,
+                                        offset: int = 0,
+                                        count: int = 20,
+                                        account_name: str = "",
+                                        fetch_content: bool = True,
+                                        content_delay: float = 0.5) -> List[WechatArticle]:
+        """
+        获取公众号文章列表，并抓取文章全文内容
+        
+        Args:
+            fakeid: 公众号 ID
+            offset: 偏移量
+            count: 获取数量
+            account_name: 公众号名称
+            fetch_content: 是否抓取全文内容
+            content_delay: 抓取每篇文章内容之间的延迟（秒），避免被封
+            
+        Returns:
+            List[WechatArticle]: 包含全文内容的文章列表
+        """
+        # 先获取文章列表
+        articles = await self.get_articles(fakeid, offset, count, account_name)
+        
+        if not fetch_content or not articles:
+            return articles
+        
+        # 逐篇抓取全文内容
+        for i, article in enumerate(articles):
+            if article.url:
+                print(f"   [{i+1}/{len(articles)}] 抓取: {article.title[:30]}...")
+                content = await self.get_article_content(article.url)
+                article.content = content
+                
+                # 延迟，避免请求过于频繁
+                if i < len(articles) - 1 and content_delay > 0:
+                    await asyncio.sleep(content_delay)
+        
+        return articles
             
     async def get_article_stats(self,
                                 article_url: str) -> Dict[str, int]:
