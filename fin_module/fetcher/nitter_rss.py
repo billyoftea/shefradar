@@ -93,16 +93,22 @@ class NitterRSSFetcher(BaseFetcher):
     def __init__(self, config: Optional[Dict] = None):
         super().__init__(config)
         
-        # 配置要关注的账号
+        # 尝试从全局配置文件读取配置
+        self._load_from_global_config()
+        
+        # 配置要关注的账号（优先使用传入的 config，其次使用全局配置）
         self.accounts = self.config.get("accounts", [])
         if not self.accounts:
-            # 默认使用 crypto 账号
+            # 如果 config 中没有指定，尝试从全局配置获取
+            self.accounts = self._get_accounts_from_global()
+        if not self.accounts:
+            # 最后使用默认 crypto 账号
             self.accounts = self.RECOMMENDED_ACCOUNTS.get("crypto", [])[:5]
         
         # 每个账号获取的推文数量
         self.max_tweets_per_user = self.config.get("max_tweets_per_user", 10)
         
-        # 确定 Nitter 实例 (优先级: config > 环境变量 > 默认公共实例)
+        # 确定 Nitter 实例 (优先级: config > 全局配置 > 环境变量 > 默认公共实例)
         self.current_instance = self._determine_instance()
         
         # 是否使用自建实例
@@ -112,15 +118,48 @@ class NitterRSSFetcher(BaseFetcher):
         self.timeout = self.config.get("timeout", 15)
         
         # 是否启用
-        self.enabled = True
+        self.enabled = self.config.get("enabled", True)
         
         instance_type = "自建" if self.using_local_instance else "公共"
         logger.info(f"NitterRSSFetcher initialized with {len(self.accounts)} accounts, using {instance_type} instance: {self.current_instance}")
     
+    def _load_from_global_config(self):
+        """从全局配置文件加载 Twitter 配置"""
+        try:
+            from .social_config import SocialSourceConfig
+            global_config = SocialSourceConfig()
+            
+            if global_config.twitter.enabled:
+                # 合并全局配置（不覆盖已有配置）
+                if "nitter_instance" not in self.config:
+                    self.config["nitter_instance"] = global_config.twitter.nitter_instance
+                if "max_tweets_per_user" not in self.config:
+                    self.config["max_tweets_per_user"] = global_config.twitter.max_tweets_per_user
+                if "timeout" not in self.config:
+                    self.config["timeout"] = global_config.twitter.timeout
+                if "enabled" not in self.config:
+                    self.config["enabled"] = global_config.twitter.enabled
+                    
+                # 存储全局账号配置
+                self._global_accounts = global_config.twitter.accounts
+            else:
+                self._global_accounts = {}
+                
+        except Exception as e:
+            logger.debug(f"Could not load global config: {e}")
+            self._global_accounts = {}
+    
+    def _get_accounts_from_global(self) -> List[str]:
+        """从全局配置获取所有账号"""
+        all_accounts = []
+        for category, accounts in self._global_accounts.items():
+            all_accounts.extend(accounts)
+        return all_accounts
+    
     def _determine_instance(self) -> str:
         """
         确定要使用的 Nitter 实例
-        优先级: config 参数 > 环境变量 > 默认公共实例
+        优先级: config 参数 > 全局配置 > 环境变量 > 默认公共实例
         """
         # 1. 首先检查 config 参数
         config_instance = self.config.get("nitter_instance", "")

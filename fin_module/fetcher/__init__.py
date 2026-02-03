@@ -73,10 +73,46 @@ class BaseFetcher(ABC):
         self._cache = {}
 
 
-# 导出各个抓取器（待实现后取消注释）
-# from .stock_cn import StockCNFetcher
-# from .precious_metal import PreciousMetalFetcher
-# from .crypto import CryptoFetcher
-# from .futures import FuturesFetcher
-# from .twitter import TwitterFetcher
-# from .github import GitHubFetcher
+# ==================== 导出各个抓取器 ====================
+
+# 市场数据抓取器
+from .stock_cn import StockCNFetcher
+from .precious_metal import PreciousMetalFetcher
+from .crypto import CryptoFetcher
+from .futures import FuturesFetcher
+
+# 社交媒体抓取器
+from .twitter import TwitterFetcher
+from .nitter_rss import NitterRSSFetcher
+
+# 内容抓取器
+from .github import GitHubFetcher
+from .wechat_article import WechatArticleFetcher
+
+# 配置管理
+from .social_config import SocialSourceConfig, TwitterConfig, WechatConfig
+
+# 导出列表
+__all__ = [
+    # 基类
+    "BaseFetcher",
+    
+    # 市场数据
+    "StockCNFetcher",
+    "PreciousMetalFetcher", 
+    "CryptoFetcher",
+    "FuturesFetcher",
+    
+    # 社交媒体
+    "TwitterFetcher",
+    "NitterRSSFetcher",
+    
+    # 内容
+    "GitHubFetcher",
+    "WechatArticleFetcher",
+    
+    # 配置管理
+    "SocialSourceConfig",
+    "TwitterConfig",
+    "WechatConfig",
+]

@@ -1,0 +1,42 @@
+# 微信公众号文章导出工具 Docker 配置
+# 项目地址: https://github.com/wechat-article/wechat-article-exporter
+# 文档: https://docs.mptext.top
+
+version: '3.8'
+
+services:
+  wechat-article-exporter:
+    image: ghcr.io/wechat-article/wechat-article-exporter:latest
+    container_name: wechat-article-exporter
+    restart: unless-stopped
+    ports:
+      - "3001:3000"  # 映射到 3001 端口，避免与其他服务冲突
+    volumes:
+      # 数据持久化目录
+      - ./data:/app/.data
+    environment:
+      - NODE_ENV=production
+      - HOST=0.0.0.0
+      - PORT=3000
+      # KV 存储配置
+      - NITRO_KV_DRIVER=fs
+      - NITRO_KV_BASE=.data/kv
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "http://localhost:3000/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+
+# 使用说明:
+# 1. 启动服务: docker-compose up -d
+# 2. 访问界面: http://localhost:3001
+# 3. 扫码登录微信公众号后台
+# 4. 搜索目标公众号并批量下载文章
+#
+# 功能特性:
+# - 支持搜索公众号（关键字搜索）
+# - 支持导出 html/json/excel/txt/md/docx 格式
+# - HTML 格式可 100% 还原文章样式
+# - 支持导出阅读量、评论数据
+# - 支持合集下载
