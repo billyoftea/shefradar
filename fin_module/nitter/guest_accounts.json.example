@@ -1,0 +1,10 @@
+[
+  {
+    "oauth_token": "YOUR_OAUTH_TOKEN_1",
+    "oauth_token_secret": "YOUR_OAUTH_SECRET_1"
+  },
+  {
+    "oauth_token": "YOUR_OAUTH_TOKEN_2",
+    "oauth_token_secret": "YOUR_OAUTH_SECRET_2"
+  }
+]
